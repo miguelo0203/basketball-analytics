@@ -320,25 +320,25 @@ def create_presentation_pdf(output_path: str):
         ),
         # Slide 11
         (
-            "Del Número a la Pista: Puente Datos ➔ Cinta",
-            "¿Cómo se conecta el análisis cuantitativo con la observación de vídeo?",
+            "Del Número a la Pista: Puente Datos ➔ Decisión",
+            "¿Cómo se conecta el análisis cuantitativo con la preparación del partido?",
             [
-                ("Fase 1: Detección Cuantitativa", "La analítica detecta una anomalía estadística (ej. rival permite 1.18 PPP en P&R cuando defienden en Drop)."),
-                ("Fase 2: Hipótesis Táctica", "Formulamos la causa probable: el pívot rival hunde demasiado su posición y concede tiros cómodos tras bote."),
-                ("Fase 3: Auditoría en Vídeo", "Comprobamos 20 posesiones en vídeo para verificar si la debilidad es estructural o fruto de la suerte.")
+                ("Fase 1: Señal Cuantitativa", "La analítica detecta una anomalía estadística (ej. rival concede alta eficiencia ante tiros tras bloqueo directo)."),
+                ("Fase 2: Hipótesis Táctica", "Formulamos la hipótesis: el pívot rival hunde demasiado la defensa y concede espacio en pick-and-pop."),
+                ("Fase 3: Recomendación Táctica", "Se formulan 3 preguntas concretas para que el cuerpo técnico verifique la situación en su preparación.")
             ],
-            "<b>Entrega Final</b>: Un clip de 45 segundos y una consigna clara para la pizarra del entrenador."
+            "<b>Entrega Final</b>: Un brief prepartido conciso con preguntas tácticas directas para el cuerpo técnico."
         ),
         # Slide 12
         (
-            "Validación Táctica en Vídeo (420 Clips)",
-            "¿Cómo medimos la fiabilidad del scouting cualitativo?",
+            "Enfoque Metodológico Data-First",
+            "¿Por qué el proyecto prioriza datos estructurados sobre anotación manual?",
             [
-                ("Codificación Sistemática", "Analizamos 420 situaciones de pick-and-roll en torneos oficiales categorizando coberturas defensivas."),
-                ("Fiabilidad Inter-Observador", "Alcanzamos un coeficiente Cohen's Kappa κ = 0.80, garantizando consistencia en el criterio de scouting."),
-                ("Tipología de Coberturas", "Evaluamos Drop, Switch, Blitz/Trap y Hedge y su eficacia frente a diferentes perfiles de manejador.")
+                ("Objetividad y Escala", "Procesamos 1.145 partidos y 27.353 actuaciones con métricas reproducibles sin sesgo de observación manual."),
+                ("Independencia de Vídeo Manual", "El sistema no depende de etiquetado manual de vídeo; opera sobre actas oficiales y eventos estructurados."),
+                ("Foco en Decisiones", "La estadística filtra el ruido para que el entrenador dedique su tiempo de scout a situaciones prioritarias.")
             ],
-            "<b>Rigor Metodológico</b>: El vídeo deja de ser subjetivo cuando se audita con protocolos estructurados."
+            "<b>Decisión Metodológica</b>: Arquitectura data-first orientada a reproducibilidad, velocidad y rigor cuantitativo."
         ),
         # Slide 13
         (

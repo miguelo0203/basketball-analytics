@@ -47,7 +47,7 @@ $$\text{DATOS} \longrightarrow \text{ANÁLISIS} \longrightarrow \text{EVIDENCIA}
 | **Actuaciones de Jugador**   | 27.353 Registros individuales en `fact_player_game`                  |
 | **Campañas Cualificadas**    | 3.767 Campañas torneo-jugador (con >= 40 minutos jugados)           |
 | **Arquetipos de Jugador**    | 6 Roles funcionales descubiertos con K-Means++ y PCA               |
-| **Capa Táctica de Vídeo**    | 420 Posesiones doblemente codificadas (Cohen's κ = 0.80)            |
+| **Enfoque Metodológico**     | Data-First (Actas oficiales, Four Factors, perfiles de tiro)        |
 | **Folds Temporales Walk-FWD**| 17 Folds cronológicos expansivos (1.105 partidos fuera de muestra)  |
 | **Calibración de ML**        | Regresión Isotónica (Brier = 0.1967, ECE = 0.0314, MAE = 11.74 pts)|
 | **Simulaciones de Torneo**   | 180.000 Iteraciones Monte Carlo con shrinkage de probabilidades     |
@@ -64,11 +64,11 @@ $$\text{DATOS} \longrightarrow \text{ANÁLISIS} \longrightarrow \text{EVIDENCIA}
 2. **Almacén Analítico DuckDB**: Organiza 12 tablas relacionales normalizadas para consultas OLAP ultrarrápidas en proceso.
 3. **Métricas de Baloncesto**: Calcula posesiones, Net Rating y los Four Factors de Dean Oliver neutralizando ritmos.
 4. **Análisis de Jugadores y Roles**: Agrupa 3.767 campañas en 6 arquetipos funcionales superando las posiciones tradicionales.
-5. **Evidencia Táctica en Vídeo**: Integra 420 posesiones observadas en cinta (coberturas de bloqueo directo y contestación de tiros).
-6. **Machine Learning Calibrado**: Entrena modelos LightGBM temporales sin fuga de datos con un error de calibración del $3.14\%$.
-7. **Simulación de Torneos**: Proyecta cuadros de torneo mediante 180.000 iteraciones Monte Carlo con shrinkage.
-8. **Integración de Evidencias**: Cruza 8 capas de información prepartido en una matriz unificada.
-9. **Motor de Contradicciones**: Alerta al analista cuando la estadística y el vídeo discrepan tácticamente.
+5. **Contexto Táctico y Tiro**: Modela tendencias de tiro, espaciado y efectividad por zonas de la pista.
+6. **Machine Learning Calibrado**: Entrena modelos LightGBM con validación walk-forward temporal diseñada para prevenir data leakage.
+7. **Simulación de Torneos**: Proyecta cuadros de torneo mediante 180.000 iteraciones Monte Carlo con contracción bayesiana ($\lambda = 0.75$).
+8. **Integración de Evidencias**: Cruza múltiples dimensiones analíticas prepartido en una matriz unificada.
+9. **Detección de Inconsistencias**: Alerta al analista cuando la muestra corta o la varianza de tiro distorsiona el perfil aparente.
 10. **Briefs de Soporte a Decisiones**: Genera resúmenes ejecutivos de 1.5 páginas con preguntas clave para el entrenador.
 
 ---
