@@ -44,6 +44,7 @@ def test_mvp15_artifacts_exist():
         PROJECT_ROOT / "reports" / "mvp23_publication_audit.md",
         PROJECT_ROOT / "reports" / "mvp24_public_release_verdict.md",
         PROJECT_ROOT / "reports" / "mvp26_portfolio_showcase_audit.md",
+        PROJECT_ROOT / "reports" / "mvp27_external_reviewer_audit.md",
         PROJECT_ROOT / "CITATION.cff",
         PROJECT_ROOT / "data" / "README.md",
         PROJECT_ROOT / "presentation" / "README.md",
