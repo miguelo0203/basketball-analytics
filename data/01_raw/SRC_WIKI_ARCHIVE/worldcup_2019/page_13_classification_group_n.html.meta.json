@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2019_FIBA_Basketball_World_Cup_Group_N",
+  "retrieval_timestamp_utc": "2026-08-18T02:35:21.042791+00:00",
+  "content_sha256": "136454a249bd0e9fe1c39f83cbcd8b06fbfcca20e8a0f34134858f4044684ad0",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "8e18be42-988f-46d4-948a-6771d088e8c5",
+  "http_status": 200,
+  "request_params": null
+}

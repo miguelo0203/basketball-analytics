@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2013_Group_D",
+  "retrieval_timestamp_utc": "2026-08-18T02:39:18.009983+00:00",
+  "content_sha256": "a748cd38b12fdef1fdef508219f66b0ba17fa9cde682dafdd13668ca1a813585",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "365a87ff-e258-4758-99c9-7be4341b5fb4",
+  "http_status": 200,
+  "request_params": null
+}

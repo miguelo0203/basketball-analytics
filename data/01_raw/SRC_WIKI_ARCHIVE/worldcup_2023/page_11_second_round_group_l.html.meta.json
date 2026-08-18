@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2023_FIBA_Basketball_World_Cup_Group_L",
+  "retrieval_timestamp_utc": "2026-08-18T02:37:14.463492+00:00",
+  "content_sha256": "9ac9fb0863ddca383922679f7355d4ee9638df08be8c31b4071f84f1628df03f",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "85fc6a41-44f4-441e-b23c-36ca94495d91",
+  "http_status": 200,
+  "request_params": null
+}

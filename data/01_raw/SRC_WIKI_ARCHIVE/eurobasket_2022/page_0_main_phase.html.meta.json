@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2022",
+  "retrieval_timestamp_utc": "2026-08-18T02:15:53.460407+00:00",
+  "content_sha256": "286c20d654b29e0ef84e40250f99e2f187103cd7ee9f5869265d233e9debc675",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "fc5c244b-98a6-4bba-afb7-27a7175f852d",
+  "http_status": 200,
+  "request_params": null
+}

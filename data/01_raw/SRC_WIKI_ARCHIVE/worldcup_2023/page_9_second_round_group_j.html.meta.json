@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2023_FIBA_Basketball_World_Cup_Group_J",
+  "retrieval_timestamp_utc": "2026-08-18T02:37:10.501917+00:00",
+  "content_sha256": "1a7c60094fbcd629df0fe3371ac8da3ef9e5703b9cac14b62938567d5066effc",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "ea375112-7611-40c1-bbee-31efe166c9be",
+  "http_status": 200,
+  "request_params": null
+}

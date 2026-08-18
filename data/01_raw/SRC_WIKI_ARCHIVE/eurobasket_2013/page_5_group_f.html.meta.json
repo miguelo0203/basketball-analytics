@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2013_Group_F",
+  "retrieval_timestamp_utc": "2026-08-18T02:39:22.024297+00:00",
+  "content_sha256": "aa8335f05b4eb7925cbcb570b97008c74683226231696ed47dcc5deaa9e334f7",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "16713166-305a-4f8b-ad2c-4d3b2f8d1a0b",
+  "http_status": 200,
+  "request_params": null
+}

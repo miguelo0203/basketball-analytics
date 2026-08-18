@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2019_FIBA_Basketball_World_Cup_Group_C",
+  "retrieval_timestamp_utc": "2026-08-18T02:34:59.105705+00:00",
+  "content_sha256": "9db516c01a5513a8d8aaf58914af58185adb8dcb892d4601b063693c77f8b312",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "d8b8a96c-f338-462b-85ab-8bdd17edf3ac",
+  "http_status": 200,
+  "request_params": null
+}

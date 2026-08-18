@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2010_FIBA_World_Championship_Group_A",
+  "retrieval_timestamp_utc": "2026-08-18T02:36:32.217100+00:00",
+  "content_sha256": "e29bede57b0adfa84466936b9ef60fe347ec8bfc0e75ba1123e3e631dd27ce5a",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "18955fdd-ccee-44ca-bd85-0f79746db025",
+  "http_status": 200,
+  "request_params": null
+}

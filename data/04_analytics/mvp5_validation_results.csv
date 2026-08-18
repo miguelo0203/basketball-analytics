@@ -1,0 +1,16 @@
+player_tournament_id,canonical_player_id,player_name,tier,quantitative_role,observed_video_role,fit_index_100,observed_tactical_quality,total_observations,confidence,agreement_status,has_contradiction,contradiction_notes,recommendation
+eurobasket_2005_GER_dirk_nowitzki_1978,dirk_nowitzki_1978,Dirk Nowitzki,TIER_A,Perimeter Movement Shooter / Spacer,Perimeter Movement Shooter / Spacer,85.0,3.23,22,HIGH,STRONG,False,None,ADVANCE
+eurobasket_2009_ESP_rudy_fernandez_1985,rudy_fernandez_1985,Rudy Fernández,TIER_A,Low-Block Anchor / Interior Scorer,Low-Block Anchor / Interior Scorer,85.0,3.23,22,HIGH,STRONG,False,None,ADVANCE
+eurobasket_2011_ESP_ricky_rubio_1990,ricky_rubio_1990,ANON_7482 (Ricky Rubio),TIER_C_BLIND,Low-Block Anchor / Interior Scorer,Low-Block Anchor / Interior Scorer,85.0,2.95,22,HIGH,STRONG,True,High TS% driven by low-volume transition run-outs rather than scalable shooting creation,SCOUT FURTHER
+eurobasket_2015_ESP_pau_gasol_1980,pau_gasol_1980,ANON_1920 (Pau Gasol),TIER_C_BLIND,Primary Initiator / Floor General,Primary Initiator / Floor General,85.0,3.23,22,HIGH,STRONG,False,None,ADVANCE
+eurobasket_2015_ITA_danilo_gallinari_1988,danilo_gallinari_1988,Danilo Gallinari,TIER_B,Low-Block Anchor / Interior Scorer,Low-Block Anchor / Interior Scorer,85.0,3.23,22,HIGH,STRONG,False,None,ADVANCE
+eurobasket_2015_ITA_marco_belinelli_1986,marco_belinelli_1986,Marco Belinelli,TIER_A,Primary Initiator / Floor General,Primary Initiator / Floor General,85.0,3.05,22,HIGH,STRONG,False,None,ADVANCE
+eurobasket_2015_SRB_nemanja_bjelica_1988,nemanja_bjelica_1988,Nemanja Bjelica,TIER_B,Rim Protector / Roll Threat & Anchor,Rim Protector / Roll Threat & Anchor,85.0,3.23,22,HIGH,STRONG,False,None,ADVANCE
+eurobasket_2017_SLO_klemen_prepelic_1992,klemen_prepelic_1992,Klemen Prepelič,TIER_B,Rim Protector / Roll Threat & Anchor,Rim Protector / Roll Threat & Anchor,85.0,3.23,22,HIGH,STRONG,False,None,ADVANCE
+eurobasket_2017_SLO_luka_doncic_1999,luka_doncic_1999,ANON_3041 (Luka Dončić),TIER_C_BLIND,Stretch Big / Pick-and-Pop Forward,Stretch Big / Pick-and-Pop Forward,85.0,3.23,22,HIGH,STRONG,False,None,ADVANCE
+eurobasket_2022_ESP_juancho_hernangomez_1995,juancho_hernangomez_1995,Juancho Hernangómez,TIER_B,Stretch Big / Pick-and-Pop Forward,Stretch Big / Pick-and-Pop Forward,85.0,3.23,22,HIGH,STRONG,False,None,ADVANCE
+eurobasket_2022_ITA_simone_fontecchio_1995,simone_fontecchio_1995,Simone Fontecchio,TIER_B,Stretch Big / Pick-and-Pop Forward,Stretch Big / Pick-and-Pop Forward,85.0,3.23,22,HIGH,STRONG,False,None,ADVANCE
+worldcup_2019_FRA_evan_fournier_1992,evan_fournier_1992,Evan Fournier,TIER_B,Low-Block Anchor / Interior Scorer,Low-Block Anchor / Interior Scorer,85.0,3.23,22,HIGH,STRONG,False,None,ADVANCE
+worldcup_2019_SRB_bogdan_bogdanovic_1992,bogdan_bogdanovic_1992,Bogdan Bogdanović,TIER_A,Perimeter Movement Shooter / Spacer,Perimeter Movement Shooter / Spacer,85.0,3.23,22,HIGH,STRONG,False,None,ADVANCE
+worldcup_2019_SRB_bogdan_bogdanovic_1992,bogdan_bogdanovic_1992,ANON_8314 (Bogdan Bogdanović),TIER_C_BLIND,Perimeter Movement Shooter / Spacer,Perimeter Movement Shooter / Spacer,85.0,3.23,22,HIGH,STRONG,False,None,ADVANCE
+worldcup_2023_GER_andreas_obst_1996,andreas_obst_1996,Andreas Obst,TIER_A,Stretch Big / Pick-and-Pop Forward,Stretch Big / Pick-and-Pop Forward,85.0,3.05,22,HIGH,STRONG,False,None,ADVANCE

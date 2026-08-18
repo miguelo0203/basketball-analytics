@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2006_FIBA_World_Championship",
+  "retrieval_timestamp_utc": "2026-08-18T02:34:53.700025+00:00",
+  "content_sha256": "f7ca8280764db5a9629895f6a7c84783ffdc99a4e812e0326297c1bf60a3359b",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "b03b27cb-fc3a-4414-bc34-dfaec35a2bd8",
+  "http_status": 200,
+  "request_params": null
+}

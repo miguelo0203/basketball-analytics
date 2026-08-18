@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/FIBA_EuroBasket_2013_knockout_stage",
+  "retrieval_timestamp_utc": "2026-08-18T02:16:47.087432+00:00",
+  "content_sha256": "e87dac0bd65b7fc4b88d0915b4270665e14166849aec527dd6708a535ac9178c",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "e628c483-dec6-43cc-ae21-1bbaefa8aa92",
+  "http_status": 200,
+  "request_params": null
+}

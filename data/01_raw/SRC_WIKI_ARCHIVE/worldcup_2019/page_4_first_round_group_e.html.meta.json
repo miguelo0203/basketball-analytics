@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2019_FIBA_Basketball_World_Cup_Group_E",
+  "retrieval_timestamp_utc": "2026-08-18T02:35:03.068212+00:00",
+  "content_sha256": "ac589ec0701ca700861c0a39683ba4746a910b474aa614546694becfe61f5ba3",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "19e43a92-8635-44ab-82f0-a1f705a87066",
+  "http_status": 200,
+  "request_params": null
+}

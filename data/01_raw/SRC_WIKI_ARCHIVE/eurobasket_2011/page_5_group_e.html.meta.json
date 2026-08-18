@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2011_Group_E",
+  "retrieval_timestamp_utc": "2026-08-18T02:24:49.999245+00:00",
+  "content_sha256": "45b1e699af9c8308ea379baf0a9ae5fcb4e8d3bf207beaccf00e8c7626146b1f",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "43ee0d49-9aa4-4b7a-8958-54b3fcad2497",
+  "http_status": 200,
+  "request_params": null
+}

@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2011",
+  "retrieval_timestamp_utc": "2026-08-18T02:15:27.483320+00:00",
+  "content_sha256": "c47b4a1fadffde660a5bc5e2c1846d023a30de0dd60d2ffdbcbe8d25efb62f22",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "72207d58-3473-402f-b46f-29ff2fc50f5a",
+  "http_status": 200,
+  "request_params": null
+}

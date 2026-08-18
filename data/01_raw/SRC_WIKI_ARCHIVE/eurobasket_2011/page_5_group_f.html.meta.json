@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2011_Group_F",
+  "retrieval_timestamp_utc": "2026-08-18T02:38:47.453937+00:00",
+  "content_sha256": "f5e284dbafebdc48390bb8e4e4332ccb87ac02ced19b5bd170b0592dbd92fa87",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "b4d22a17-8f66-4b0c-a925-3dfb70f605a0",
+  "http_status": 200,
+  "request_params": null
+}

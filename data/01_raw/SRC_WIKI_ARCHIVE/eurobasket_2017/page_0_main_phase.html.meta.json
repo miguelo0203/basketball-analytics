@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2017",
+  "retrieval_timestamp_utc": "2026-08-18T02:15:41.463518+00:00",
+  "content_sha256": "a6b4dcc9ac975f10beb7e580551f672a96466acc640d6798b211828f6f77cf96",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "a5769f46-064f-46c9-82c2-5c414848c40f",
+  "http_status": 200,
+  "request_params": null
+}

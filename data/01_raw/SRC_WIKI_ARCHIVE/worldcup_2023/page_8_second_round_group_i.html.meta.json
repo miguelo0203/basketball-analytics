@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2023_FIBA_Basketball_World_Cup_Group_I",
+  "retrieval_timestamp_utc": "2026-08-18T02:37:08.444820+00:00",
+  "content_sha256": "051ed5a2a7065ee357c1cf35073e4ebcddaa9a1f32435bd8b17ab8f2f40ccf41",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "9d1dd9a6-2dea-4f9b-8ca3-2d7364030752",
+  "http_status": 200,
+  "request_params": null
+}

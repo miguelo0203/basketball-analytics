@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2019_FIBA_Basketball_World_Cup_Group_G",
+  "retrieval_timestamp_utc": "2026-08-18T02:35:07.033665+00:00",
+  "content_sha256": "9ce76095aa728bdd5b03df670630df326de81a93d6d888e8c3cb716129402949",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "d871001f-57d3-4a02-af6d-1efade004a0f",
+  "http_status": 200,
+  "request_params": null
+}

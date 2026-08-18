@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2013_Group_A",
+  "retrieval_timestamp_utc": "2026-08-18T02:39:12.465671+00:00",
+  "content_sha256": "25bd477f15d6998a5e722a7765404bf369420d9e0da940fd5c243b8561be7189",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "c8040dd3-2afc-42a1-ae3f-8d7f16dcc963",
+  "http_status": 200,
+  "request_params": null
+}

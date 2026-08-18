@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2010_FIBA_World_Championship_Group_D",
+  "retrieval_timestamp_utc": "2026-08-18T02:36:38.029497+00:00",
+  "content_sha256": "0b2d1957bdcbdc225607ae37a0c3b5ff551c9c1c01a14a8ed11f8d73f86ec33b",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "016f12a1-bfe2-4c9a-8da5-d81711036764",
+  "http_status": 200,
+  "request_params": null
+}

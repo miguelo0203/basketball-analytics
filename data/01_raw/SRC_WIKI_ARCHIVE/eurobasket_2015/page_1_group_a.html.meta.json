@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2015_Group_A",
+  "retrieval_timestamp_utc": "2026-08-18T02:16:51.090190+00:00",
+  "content_sha256": "7f40681be3b1e9f0d5ff46c78989131af58fce8643ef3618ae25ab6bc34be3fb",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "528f5930-31ec-4728-80e6-e186f32dc540",
+  "http_status": 200,
+  "request_params": null
+}

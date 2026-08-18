@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2010_FIBA_World_Championship_Group_B",
+  "retrieval_timestamp_utc": "2026-08-18T02:36:34.006954+00:00",
+  "content_sha256": "645343e1997fed8020b676953cabf55bbd539ef5e8a9915bafd5d7a05c20ce7d",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "b68db242-c56a-470c-a0b6-ac7c7710f95b",
+  "http_status": 200,
+  "request_params": null
+}

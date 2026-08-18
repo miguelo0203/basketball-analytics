@@ -1,0 +1,4 @@
+rule_set_id,effective_from,effective_to,rule_3pt_distance_m,shot_clock_seconds,shot_clock_orb_seconds,lane_geometry,no_charge_semicircle,game_duration_minutes,ot_duration_minutes,description
+fiba_2005_2010,2000-01-01,2010-09-30,6.25,24,24,trapezoid,false,40,5,"Classic FIBA rules (6.25m arc, trapezoidal key, full 24s reset on offensive rebound)"
+fiba_2011_2013,2010-10-01,2014-09-30,6.75,24,24,rectangle,true,40,5,"First major modernisation (6.75m arc, rectangular key, no-charge semicircle introduced)"
+fiba_2014_present,2014-10-01,2099-12-31,6.75,24,14,rectangle,true,40,5,"Modern FIBA rules (14-second shot clock reset after offensive rebound)"

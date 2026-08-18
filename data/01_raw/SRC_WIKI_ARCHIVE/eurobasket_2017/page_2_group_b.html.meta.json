@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2017_Group_B",
+  "retrieval_timestamp_utc": "2026-08-18T02:15:45.447297+00:00",
+  "content_sha256": "3e876e0fcf4adbde77469bb5be64b44e45ead5bb677d77d7531eee725875f738",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "675f8688-b52e-4e4f-8b3c-85037ca646f5",
+  "http_status": 200,
+  "request_params": null
+}

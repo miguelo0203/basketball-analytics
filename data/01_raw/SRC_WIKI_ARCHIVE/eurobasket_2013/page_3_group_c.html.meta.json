@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2013_Group_C",
+  "retrieval_timestamp_utc": "2026-08-18T02:16:41.088471+00:00",
+  "content_sha256": "669d2d4c3cbbf009901e069d74f5b9c25adf8dd520741f0ff8534747a7923765",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "9efb82d5-f745-47fb-adbd-46426fd7745d",
+  "http_status": 200,
+  "request_params": null
+}

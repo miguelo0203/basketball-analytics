@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2017_Group_A",
+  "retrieval_timestamp_utc": "2026-08-18T02:15:43.483210+00:00",
+  "content_sha256": "1248f98c79feaa2ce979e5241b12ec01c4c3cb9c96f9fb2aa9785384ad1084cd",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "338b2e91-c672-4710-bcb0-e35b107b5c5b",
+  "http_status": 200,
+  "request_params": null
+}

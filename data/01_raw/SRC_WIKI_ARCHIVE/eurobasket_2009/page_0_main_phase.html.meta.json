@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2009",
+  "retrieval_timestamp_utc": "2026-08-18T02:16:33.097803+00:00",
+  "content_sha256": "efb5ebd378a39925ad993f62dad84f2b792b250083ee3177c465c911a8a4c73b",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "51efde2a-ec05-42a8-9327-000bf19e3c25",
+  "http_status": 200,
+  "request_params": null
+}

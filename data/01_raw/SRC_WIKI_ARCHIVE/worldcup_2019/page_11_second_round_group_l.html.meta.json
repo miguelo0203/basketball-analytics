@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2019_FIBA_Basketball_World_Cup_Group_L",
+  "retrieval_timestamp_utc": "2026-08-18T02:35:17.040681+00:00",
+  "content_sha256": "e10777bc79ae240176d71bad7b815453e8e8217be5956652861844204b33dda3",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "51a77d3d-593f-4720-bae8-9fd6fcf17248",
+  "http_status": 200,
+  "request_params": null
+}

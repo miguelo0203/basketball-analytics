@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2017_knockout_stage",
+  "retrieval_timestamp_utc": "2026-08-18T02:38:57.454124+00:00",
+  "content_sha256": "dca35030bca0c5fcc3c3ce4be9254903e146de3bc1beac9a24c879a9b9dba1e9",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "6e274278-16c0-4399-99fa-a01bd5b8eb32",
+  "http_status": 200,
+  "request_params": null
+}

@@ -1,0 +1,103 @@
+# Source Registry Configuration
+sources:
+  fiba_archive:
+    source_id: "SRC_FIBA_ARCHIVE"
+    name: "FIBA Archive"
+    base_url: "https://archive.fiba.com"
+    type: "official_archive"
+    precedence_rank: 1
+    supported_eras: ["2005-2017"]
+    rate_limit_per_min: 30
+    requires_auth: false
+    format: "html_static"
+    capabilities:
+      boxscore: true
+      play_by_play: "partial_text"
+      shot_chart: false
+      player_ids: true
+      team_ids: true
+
+  fiba_modern_api:
+    source_id: "SRC_FIBA_MODERN"
+    name: "FIBA Modern Web Engine"
+    base_url: "https://www.fiba.basketball"
+    type: "official_api"
+    precedence_rank: 1
+    supported_eras: ["2018-2025"]
+    rate_limit_per_min: 20
+    requires_auth: false
+    format: "json_rest"
+    capabilities:
+      boxscore: true
+      play_by_play: "structured"
+      shot_chart: true
+      player_ids: true
+      team_ids: true
+
+  fiba_livestats:
+    source_id: "SRC_FIBA_LIVESTATS"
+    name: "Genius Sports FIBA LiveStats"
+    base_url: "https://fibalivestats.dcd.shared.geniussports.com"
+    type: "official_telemetry"
+    precedence_rank: 1
+    supported_eras: ["2014-2025"]
+    rate_limit_per_min: 20
+    requires_auth: false
+    format: "json"
+    capabilities:
+      boxscore: true
+      play_by_play: "exact_timestamps"
+      shot_chart: true
+      player_ids: true
+      team_ids: true
+
+  basketball_reference:
+    source_id: "SRC_BREF"
+    name: "Basketball-Reference International"
+    base_url: "https://www.basketball-reference.com/international"
+    type: "secondary_structured"
+    precedence_rank: 2
+    supported_eras: ["2005-2025"]
+    rate_limit_per_min: 20
+    requires_auth: false
+    format: "html_tabular"
+    capabilities:
+      boxscore: true
+      play_by_play: false
+      shot_chart: false
+      player_ids: true
+      team_ids: true
+
+  feb_archive:
+    source_id: "SRC_FEB"
+    name: "Federación Española de Baloncesto"
+    base_url: "https://www.feb.es"
+    type: "official_federation"
+    precedence_rank: 2
+    supported_eras: ["2005-2025"]
+    rate_limit_per_min: 20
+    requires_auth: false
+    format: "html"
+    capabilities:
+      boxscore: true
+      play_by_play: false
+      shot_chart: false
+      player_ids: true
+      team_ids: true
+
+  ioc_olympics:
+    source_id: "SRC_IOC"
+    name: "IOC Official Results Books"
+    base_url: "https://olympics.com"
+    type: "official_olympic"
+    precedence_rank: 1
+    supported_eras: ["2008-2024"]
+    rate_limit_per_min: 10
+    requires_auth: false
+    format: "pdf_html"
+    capabilities:
+      boxscore: true
+      play_by_play: "partial_text"
+      shot_chart: false
+      player_ids: false
+      team_ids: true

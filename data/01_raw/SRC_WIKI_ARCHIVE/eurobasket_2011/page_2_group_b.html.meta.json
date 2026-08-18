@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2011_Group_B",
+  "retrieval_timestamp_utc": "2026-08-18T02:15:31.446840+00:00",
+  "content_sha256": "bceddccf1b8b180054873c7654240674c63401e44cf7cb49dac7d11c077df71f",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "923c11d2-efcd-4805-80a4-ea2829dec26e",
+  "http_status": 200,
+  "request_params": null
+}

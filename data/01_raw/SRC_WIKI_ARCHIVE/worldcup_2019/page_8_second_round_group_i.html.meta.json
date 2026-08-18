@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2019_FIBA_Basketball_World_Cup_Group_I",
+  "retrieval_timestamp_utc": "2026-08-18T02:35:11.043594+00:00",
+  "content_sha256": "25a318b651443839e1eed87cbb65e0f1605827e5b9e690ae13d439b6cca51bef",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "f97e58a0-9a2d-4ea1-94e4-e99d39008d20",
+  "http_status": 200,
+  "request_params": null
+}

@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2023_FIBA_Basketball_World_Cup_Group_E",
+  "retrieval_timestamp_utc": "2026-08-18T02:37:00.407541+00:00",
+  "content_sha256": "db1ec4d1dbdbda3bde7dae8dd05ed0fc297eb043adf759f342c8b39014e4dfc6",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "7df75dfb-0453-4702-99a5-8cd238e7d324",
+  "http_status": 200,
+  "request_params": null
+}

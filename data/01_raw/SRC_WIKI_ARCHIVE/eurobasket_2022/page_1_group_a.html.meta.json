@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2022_Group_A",
+  "retrieval_timestamp_utc": "2026-08-18T02:15:55.453464+00:00",
+  "content_sha256": "758cc4690edab61143fd3aa2fce057969801eb6157725e4dc0e713b686675b5c",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "b89ad1bd-5f09-4832-bd04-ed6c24c81dd0",
+  "http_status": 200,
+  "request_params": null
+}

@@ -1,0 +1,4 @@
+scenario_name,shrinkage_lambda,n_simulations,champion_top1_hit_rate,champion_top2_hit_rate,champion_top4_hit_rate,mean_rank_of_actual_champion,mean_simulated_prob_of_actual_champion
+"Scenario A: Baseline MVP-6 (Full Separation, lambda=1.00)",1.0,500,0.7222,0.7778,1.0,1.5,0.5547
+Scenario B: Moderate Shrinkage (lambda=0.75),0.75,500,0.6667,0.7778,1.0,1.56,0.508
+Scenario C: High Uncertainty / Conservative (lambda=0.50),0.5,500,0.6111,0.7778,1.0,1.61,0.4716

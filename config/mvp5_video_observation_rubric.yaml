@@ -1,0 +1,70 @@
+# MVP-5 Video Observation & Tactical Evaluation Rubric
+version: "1.0"
+rubric_name: "FIBA International Basketball Qualitative Tactical Coding Rubric"
+description: "Standardized protocol for coding possession-level film observations to validate quantitative analytical archetypes."
+
+evidence_hierarchy:
+  level_1: "Direct Video Evidence (Observed possession/action on film)"
+  level_2: "Repeated Video Pattern (Multiple possessions/games confirming habit)"
+  level_3: "Quantitative Proxy (Boxscore/rate metric indicator)"
+  level_4: "Role / Context Inference (Tactical system assignment)"
+  level_5: "Reputation / Narrative (EXCLUDED from analytical validation)"
+
+observable_behavior_values:
+  - "YES"
+  - "NO"
+  - "MIXED"
+  - "NOT_OBSERVED"
+
+quality_scoring_scale:
+  0: "Poor / Detrimental (Execution fails to create advantage or yields turnover)"
+  1: "Inconsistent / Sub-par (Occasional positive read, but frequent breakdowns)"
+  2: "Adequate / Rotation Standard (Functional execution according to scheme)"
+  3: "Strong / Above Average (Consistently generates team advantage)"
+  4: "Elite / Game-Changing (Manipulates defenses at international top tier)"
+
+confidence_levels:
+  HIGH: ">= 10 observed relevant actions across >= 2 competitive tournament games"
+  MEDIUM: "5-9 observed relevant actions across >= 1 game"
+  LOW: "< 5 observed actions or limited game context"
+
+observation_categories:
+  creation:
+    - action: "closeout_attack"
+      target_behavior: "Attacks defender high foot to penetrate paint"
+    - action: "pnr_manipulation"
+      target_behavior: "Freezes low-man/tag defender with eye or pace manipulation"
+    - action: "paint_touch_generation"
+      target_behavior: "Collapses first line of defense into paint"
+    - action: "secondary_playmaking"
+      target_behavior: "Delivers kick-out or pocket pass after initial advantage"
+
+  shooting:
+    - action: "catch_and_shoot"
+      target_behavior: "Clean footwork on catch with compact release against closeout"
+    - action: "movement_shooting"
+      target_behavior: "Maintains vertical balance shooting off pin-down/flare screens"
+    - action: "relocation"
+      target_behavior: "Slides along 3-point arc to provide passing window on drives"
+
+  spacing:
+    - action: "corner_spacing"
+      target_behavior: "Holds deep corner position to preserve weak-side driving lanes"
+    - action: "pick_and_pop_depth"
+      target_behavior: "Pops to genuine 3PT distance (>= 6.75m) rather than mid-range"
+
+  defense:
+    - action: "point_of_attack_containment"
+      target_behavior: "Contains primary ball-handler dribble penetration without fouling"
+    - action: "screen_navigation"
+      target_behavior: "Fights over ball screens or executes lock-and-trail contest"
+    - action: "closeout_discipline"
+      target_behavior: "Chops feet and contests with high hand without biting on shot fakes"
+    - action: "help_and_recover"
+      target_behavior: "Tags roll-man and recovers to weak-side shooter in rhythm"
+
+  decision_making:
+    - action: "extra_pass"
+      target_behavior: "Moves ball to open teammate in advantage continuation"
+    - action: "ball_security"
+      target_behavior: "Protects ball under pressure; avoids unforced live-ball turnovers"

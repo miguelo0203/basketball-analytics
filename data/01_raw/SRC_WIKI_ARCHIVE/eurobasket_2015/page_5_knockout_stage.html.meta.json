@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2015_knockout_stage",
+  "retrieval_timestamp_utc": "2026-08-18T02:16:59.089412+00:00",
+  "content_sha256": "323c71620a692cce687ff475ae021f1c63c028e532acb31358efabde8d5d6b18",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "e82c0cbd-c38a-4b15-b2f8-fa4d704c524d",
+  "http_status": 200,
+  "request_params": null
+}

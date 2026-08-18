@@ -1,0 +1,23 @@
+claim_id,claim_text,category,metric_value,tier,qualification_required,repository_source
+C01,Historical competition scope,Data Engineering,18 tournaments (2005-2024),GREEN,None (Exact count in database),data/03_validated/basketball_analytics.duckdb
+C02,Total canonical games,Data Engineering,1145 games,GREEN,None (Exact count in fact_game),data/03_validated/basketball_analytics.duckdb
+C03,Team-game observations,Data Engineering,2290 team-games,GREEN,None (Exact count in fact_team_game),data/03_validated/basketball_analytics.duckdb
+C04,Player-game observations,Data Engineering,27353 player-games,GREEN,None (Exact count in fact_player_game),data/03_validated/basketball_analytics.duckdb
+C05,Total player tournament campaigns,Player Analytics,4350 campaigns,GREEN,None (Exact count in mart_player_roles),data/04_marts/analytics/mart_player_roles.parquet
+C06,Qualified player campaigns (min 40m),Player Analytics,3767 campaigns,GREEN,None (Filtered >= 40 minutes),data/04_marts/analytics/mart_player_roles.parquet
+C07,Functional player role clusters,Player Analytics,K=6 statistical archetypes,YELLOW,Qualify as statistical clusters discovered via K-Means and PCA,src/analytics/mvp3_player_analytics.py
+C08,Tactical video coding sample size,Tactical Analytics,420 double-coded possessions,GREEN,None (Exact count in mart_tactical_video),data/04_marts/analytics/mart_tactical_video.parquet
+C09,Video coding action type reliability,Tactical Analytics,Cohen's Kappa = 1.00,GREEN,None (Double-coded inter-rater agreement),reports/mvp5_inter_rater_reliability.md
+C10,Video coding execution score reliability,Tactical Analytics,Cohen's Kappa = 0.80,GREEN,None (Substantial agreement on 420 events),reports/mvp5_inter_rater_reliability.md
+C11,Chronological walk-forward ML folds,Supervised ML,17 expanding folds,GREEN,None (Strictly historical training windows),src/analytics/mvp6_supervised_analytics.py
+C12,Out-of-sample evaluated games,Supervised ML,1105 out-of-sample matches,GREEN,None (Folds 2 through 18 test matches),src/analytics/mvp6_supervised_analytics.py
+C13,Calibrated LightGBM Brier score,Supervised ML,Brier = 0.1967,GREEN,None (Out-of-sample probability error),reports/mvp6_supervised_benchmark_report.md
+C14,Expected Calibration Error (ECE),Supervised ML,ECE = 0.0314,GREEN,None (Isotonic calibration on test folds),reports/mvp6_supervised_benchmark_report.md
+C15,Point margin regression MAE,Supervised ML,MAE = 11.74 points,GREEN,None (Baseline point spread error),reports/mvp6_supervised_benchmark_report.md
+C16,Tournament Monte Carlo simulations,Simulation,180000 total iterations,GREEN,None (10000 iterations per tournament),src/analytics/mvp7_tournament_simulation.py
+C17,Historical Top-1 champion capture rate,Simulation,72.2% Top-1 hit rate,YELLOW,Qualify as retrospective tournament consistency,reports/mvp7_simulation_report.md
+C18,Historical Top-4 medal capture rate,Simulation,100.0% Top-4 reach rate,YELLOW,Qualify as retrospective tournament consistency,reports/mvp7_simulation_report.md
+C19,Historical decision case validation,Decision Science,80.0% exact agreement (4/5),YELLOW,Qualify as illustrative qualitative case series (N=5),reports/mvp8_historical_validation_report.md
+C20,Live club production deployment,Operations,Ready for live club deployment,RED,REMOVED from public docs: portfolio demonstration on historical data,reports/mvp13_demonstrated_vs_simulated.md
+C21,Model identifies best player,Decision Science,Optimal roster identification,RED,REMOVED from public docs: structures player evidence for coaching staff,reports/mvp13_professional_realism_audit.md
+C22,AI replaces head coach,Operations,Autonomous coaching decisions,RED,REMOVED from public docs: decision support only,reports/mvp13_professional_realism_audit.md

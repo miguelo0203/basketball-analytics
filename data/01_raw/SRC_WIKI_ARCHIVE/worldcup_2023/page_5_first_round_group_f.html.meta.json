@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2023_FIBA_Basketball_World_Cup_Group_F",
+  "retrieval_timestamp_utc": "2026-08-18T02:37:02.410274+00:00",
+  "content_sha256": "9792f72a73b3d2e47f9c4730eca65c70ba01e2312878584a95f42d62b5b25f57",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "b1f2517a-b021-4174-a3fd-da89b1e3c655",
+  "http_status": 200,
+  "request_params": null
+}

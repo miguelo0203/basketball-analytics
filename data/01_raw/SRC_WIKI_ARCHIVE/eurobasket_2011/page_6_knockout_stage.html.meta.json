@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2011_knockout_stage",
+  "retrieval_timestamp_utc": "2026-08-18T02:15:39.462253+00:00",
+  "content_sha256": "25a9f9c0501472485a27546dd9700be32720d6ea410810f3a386d0ea0e586a57",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "e124c8d4-f4cc-4ac5-a418-2243c066c41f",
+  "http_status": 200,
+  "request_params": null
+}

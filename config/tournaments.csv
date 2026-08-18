@@ -1,0 +1,20 @@
+tournament_id,competition,official_name,year,actual_start_date,actual_end_date,host,number_of_teams,expected_games,official_game_count,rule_set_id,source,verification_status
+eurobasket_2005,FIBA EuroBasket,FIBA EuroBasket 2005,2005,2005-09-16,2005-09-25,Serbia and Montenegro,16,40,40,fiba_2005_2010,FIBA Archive,VERIFIED
+worldcup_2006,FIBA World Cup,FIBA World Championship 2006,2006,2006-08-19,2006-09-03,Japan,24,80,80,fiba_2005_2010,FIBA Archive,VERIFIED
+eurobasket_2007,FIBA EuroBasket,FIBA EuroBasket 2007,2007,2007-09-03,2007-09-16,Spain,16,54,54,fiba_2005_2010,FIBA Archive,VERIFIED
+olympics_2008,Olympic Games,Beijing 2008 Men's Olympic Basketball Tournament,2008,2008-08-10,2008-08-24,China,12,38,38,fiba_2005_2010,IOC / Basketball-Reference,VERIFIED
+eurobasket_2009,FIBA EuroBasket,FIBA EuroBasket 2009,2009,2009-09-07,2009-09-20,Poland,16,54,54,fiba_2005_2010,FIBA Archive,VERIFIED
+worldcup_2010,FIBA World Cup,FIBA World Championship 2010,2010,2010-08-28,2010-09-12,Turkey,24,80,80,fiba_2005_2010,FIBA Archive,VERIFIED
+eurobasket_2011,FIBA EuroBasket,FIBA EuroBasket 2011,2011,2011-08-31,2011-09-18,Lithuania,24,90,90,fiba_2011_2013,FIBA Archive,VERIFIED
+olympics_2012,Olympic Games,London 2012 Men's Olympic Basketball Tournament,2012,2012-07-29,2012-08-12,United Kingdom,12,38,38,fiba_2011_2013,IOC / Basketball-Reference,VERIFIED
+eurobasket_2013,FIBA EuroBasket,FIBA EuroBasket 2013,2013,2013-09-04,2013-09-22,Slovenia,24,90,90,fiba_2011_2013,FIBA Archive,VERIFIED
+worldcup_2014,FIBA World Cup,FIBA Basketball World Cup 2014,2014,2014-08-30,2014-09-14,Spain,24,76,76,fiba_2014_present,FIBA Archive / LiveStats,VERIFIED
+eurobasket_2015,FIBA EuroBasket,FIBA EuroBasket 2015,2015,2015-09-05,2015-09-20,France / Croatia / Germany / Latvia,24,79,79,fiba_2014_present,FIBA Archive / LiveStats,VERIFIED
+olympics_2016,Olympic Games,Rio 2016 Men's Olympic Basketball Tournament,2016,2016-08-06,2016-08-21,Brazil,12,38,38,fiba_2014_present,IOC / Basketball-Reference,VERIFIED
+eurobasket_2017,FIBA EuroBasket,FIBA EuroBasket 2017,2017,2017-08-31,2017-09-17,Turkey / Finland / Israel / Romania,24,76,76,fiba_2014_present,FIBA Archive / LiveStats,VERIFIED
+worldcup_2019,FIBA World Cup,FIBA Basketball World Cup 2019,2019,2019-08-31,2019-09-15,China,32,92,92,fiba_2014_present,FIBA Modern API / LiveStats,VERIFIED
+olympics_2020,Olympic Games,Tokyo 2020 Men's Olympic Basketball Tournament,2021,2021-07-25,2021-08-07,Japan,12,26,26,fiba_2014_present,FIBA Modern API / IOC,VERIFIED
+eurobasket_2022,FIBA EuroBasket,FIBA EuroBasket 2022,2022,2022-09-01,2022-09-18,Germany / Czech Republic / Georgia / Italy,24,76,76,fiba_2014_present,FIBA Modern API / LiveStats,VERIFIED
+worldcup_2023,FIBA World Cup,FIBA Basketball World Cup 2023,2023,2023-08-25,2023-09-10,Philippines / Japan / Indonesia,32,92,92,fiba_2014_present,FIBA Modern API / LiveStats,VERIFIED
+olympics_2024,Olympic Games,Paris 2024 Men's Olympic Basketball Tournament,2024,2024-07-27,2024-08-10,France,12,26,26,fiba_2014_present,FIBA Modern API / IOC,VERIFIED
+eurobasket_2025,FIBA EuroBasket,FIBA EuroBasket 2025,2025,2025-08-27,2025-09-14,Cyprus / Finland / Poland / Latvia,24,76,76,fiba_2014_present,FIBA Modern API,VERIFIED

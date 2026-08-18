@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2007",
+  "retrieval_timestamp_utc": "2026-08-18T02:16:31.209320+00:00",
+  "content_sha256": "d4b2de81430724aae60b6739fdd26b92a765b9c6206ddadda6a182979bf9c63f",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "ac76cbc8-b0ff-4a84-af5c-809cf12490a1",
+  "http_status": 200,
+  "request_params": null
+}

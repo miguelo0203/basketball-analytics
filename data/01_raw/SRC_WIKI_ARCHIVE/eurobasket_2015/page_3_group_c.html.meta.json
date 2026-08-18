@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2015_Group_C",
+  "retrieval_timestamp_utc": "2026-08-18T02:16:55.086612+00:00",
+  "content_sha256": "1184b8ea7da58dfd4687466673b4a6982035b280d774e39c49c1dffc307e9994",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "c56f4272-74f9-4ae4-a033-a912a1b00e0c",
+  "http_status": 200,
+  "request_params": null
+}

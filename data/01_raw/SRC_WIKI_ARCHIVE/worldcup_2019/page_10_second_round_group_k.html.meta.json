@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2019_FIBA_Basketball_World_Cup_Group_K",
+  "retrieval_timestamp_utc": "2026-08-18T02:35:15.075726+00:00",
+  "content_sha256": "821928e70d5d93ff1752924e239106fd26bdd2d22c08d038994f4701529e53b5",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "0dc7338a-74b3-4345-a85a-1d87f2c2b2d2",
+  "http_status": 200,
+  "request_params": null
+}

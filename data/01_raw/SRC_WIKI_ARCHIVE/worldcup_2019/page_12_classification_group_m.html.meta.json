@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2019_FIBA_Basketball_World_Cup_Group_M",
+  "retrieval_timestamp_utc": "2026-08-18T02:35:19.043917+00:00",
+  "content_sha256": "3211ab6b8e09aae5a2599206094453b299909af660484f881e7a16d7303c4567",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "cf99297e-e6ed-422e-bfd2-4bde879abd8c",
+  "http_status": 200,
+  "request_params": null
+}

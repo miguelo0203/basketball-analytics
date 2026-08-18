@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2011_Group_A",
+  "retrieval_timestamp_utc": "2026-08-18T02:15:29.448077+00:00",
+  "content_sha256": "329f79e5a4e3772ce195f9386513c1980a55e89d1ba8db47863fa5bdeb9b5c3b",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "ccd4552e-58ce-4f69-91fb-b5f7aaf02162",
+  "http_status": 200,
+  "request_params": null
+}

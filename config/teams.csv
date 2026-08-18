@@ -1,0 +1,152 @@
+canonical_team_id,fiba_code,iso_code,canonical_name,fiba_zone,is_historical_entity
+ESP,ESP,ESP,Spain,FIBA Europe,false
+USA,USA,USA,United States,FIBA Americas,false
+SRB,SRB,SRB,Serbia,FIBA Europe,false
+SCG,SCG,SCG,Serbia and Montenegro,FIBA Europe,true
+FRA,FRA,FRA,France,FIBA Europe,false
+LTU,LTU,LTU,Lithuania,FIBA Europe,false
+GRE,GRE,GRE,Greece,FIBA Europe,false
+ARG,ARG,ARG,Argentina,FIBA Americas,false
+SLO,SLO,SLO,Slovenia,FIBA Europe,false
+GER,GER,GER,Germany,FIBA Europe,false
+ITA,ITA,ITA,Italy,FIBA Europe,false
+CRO,CRO,CRO,Croatia,FIBA Europe,false
+TUR,TUR,TUR,Turkey,FIBA Europe,false
+RUS,RUS,RUS,Russia,FIBA Europe,false
+AUS,AUS,AUS,Australia,FIBA Oceania,false
+CAN,CAN,CAN,Canada,FIBA Americas,false
+BRA,BRA,BRA,Brazil,FIBA Americas,false
+CHN,CHN,CHN,China,FIBA Asia,false
+JPN,JPN,JPN,Japan,FIBA Asia,false
+NGR,NGR,NGR,Nigeria,FIBA Africa,false
+SSD,SSD,SSD,South Sudan,FIBA Africa,false
+PUR,PUR,PUR,Puerto Rico,FIBA Americas,false
+DOM,DOM,DOM,Dominican Republic,FIBA Americas,false
+GEO,GEO,GEO,Georgia,FIBA Europe,false
+FIN,FIN,FIN,Finland,FIBA Europe,false
+POL,POL,POL,Poland,FIBA Europe,false
+CZE,CZE,CZE,Czech Republic,FIBA Europe,false
+MNE,MNE,MNE,Montenegro,FIBA Europe,false
+LAT,LAT,LAT,Latvia,FIBA Europe,false
+MKD,MKD,MKD,North Macedonia,FIBA Europe,false
+ISR,ISR,ISR,Israel,FIBA Europe,false
+UKR,UKR,UKR,Ukraine,FIBA Europe,false
+BEL,BEL,BEL,Belgium,FIBA Europe,false
+BIH,BIH,BIH,Bosnia and Herzegovina,FIBA Europe,false
+GBR,GBR,GBR,Great Britain,FIBA Europe,false
+NZL,NZL,NZL,New Zealand,FIBA Oceania,false
+ANG,ANG,ANG,Angola,FIBA Africa,false
+SEN,SEN,SEN,Senegal,FIBA Africa,false
+TUN,TUN,TUN,Tunisia,FIBA Africa,false
+IRI,IRI,IRI,Iran,FIBA Asia,false
+PHI,PHI,PHI,Philippines,FIBA Asia,false
+JOR,JOR,JOR,Jordan,FIBA Asia,false
+LBN,LBN,LBN,Lebanon,FIBA Asia,false
+EGY,EGY,EGY,Egypt,FIBA Africa,false
+CPV,CPV,CPV,Cape Verde,FIBA Africa,false
+MEX,MEX,MEX,Mexico,FIBA Americas,false
+VEN,VEN,VEN,Venezuela,FIBA Americas,false
+QAT,QAT,QAT,Qatar,FIBA Asia,false
+KOR,KOR,KOR,South Korea,FIBA Asia,false
+SWE,SWE,SWE,Sweden,FIBA Europe,false
+NED,NED,NED,Netherlands,FIBA Europe,false
+HUN,HUN,HUN,Hungary,FIBA Europe,false
+BUL,BUL,BUL,Bulgaria,FIBA Europe,false
+EST,EST,EST,Estonia,FIBA Europe,false
+POR,POR,POR,Portugal,FIBA Europe,false
+ISL,ISL,ISL,Iceland,FIBA Europe,false
+ROU,ROU,ROU,Romania,FIBA Europe,false
+CIV,CIV,CIV,Ivory Coast,FIBA Africa,false
+CMR,CMR,CMR,Cameroon,FIBA Africa,false
+MLI,MLI,MLI,Mali,FIBA Africa,false
+PAN,PAN,PAN,Panama,FIBA Americas,false
+URU,URU,URU,Uruguay,FIBA Americas,false
+JAM,JAM,JAM,Jamaica,FIBA Americas,false
+TPE,TPE,TPE,Chinese Taipei,FIBA Asia,false
+KAZ,KAZ,KAZ,Kazakhstan,FIBA Asia,false
+IND,IND,IND,India,FIBA Asia,false
+KUW,KUW,KUW,Kuwait,FIBA Asia,false
+UAE,UAE,UAE,United Arab Emirates,FIBA Asia,false
+ALG,ALG,ALG,Algeria,FIBA Africa,false
+MAR,MAR,MAR,Morocco,FIBA Africa,false
+RSA,RSA,RSA,South Africa,FIBA Africa,false
+CAF,CAF,CAF,Central African Republic,FIBA Africa,false
+CGO,CGO,CGO,Congo,FIBA Africa,false
+COD,COD,COD,DR Congo,FIBA Africa,false
+RWA,RWA,RWA,Rwanda,FIBA Africa,false
+UGA,UGA,UGA,Uganda,FIBA Africa,false
+GUI,GUI,GUI,Guinea,FIBA Africa,false
+KEN,KEN,KEN,Kenya,FIBA Africa,false
+MAD,MAD,MAD,Madagascar,FIBA Africa,false
+MOZ,MOZ,MOZ,Mozambique,FIBA Africa,false
+ZIM,ZIM,ZIM,Zimbabwe,FIBA Africa,false
+SUD,SUD,SUD,Sudan,FIBA Africa,false
+CYP,CYP,CYP,Cyprus,FIBA Europe,false
+AUT,AUT,AUT,Austria,FIBA Europe,false
+SUI,SUI,SUI,Switzerland,FIBA Europe,false
+LUX,LUX,LUX,Luxembourg,FIBA Europe,false
+DEN,DEN,DEN,Denmark,FIBA Europe,false
+NOR,NOR,NOR,Norway,FIBA Europe,false
+IRL,IRL,IRL,Ireland,FIBA Europe,false
+ALB,ALB,ALB,Albania,FIBA Europe,false
+BLR,BLR,BLR,Belarus,FIBA Europe,false
+SVK,SVK,SVK,Slovakia,FIBA Europe,false
+KOS,KOS,KOS,Kosovo,FIBA Europe,false
+ARM,ARM,ARM,Armenia,FIBA Europe,false
+AZE,AZE,AZE,Azerbaijan,FIBA Europe,false
+MLT,MLT,MLT,Malta,FIBA Europe,false
+AND,AND,AND,Andorra,FIBA Europe,false
+GIB,GIB,GIB,Gibraltar,FIBA Europe,false
+SMR,SMR,SMR,San Marino,FIBA Europe,false
+MON,MON,MON,Monaco,FIBA Europe,false
+LIE,LIE,LIE,Liechtenstein,FIBA Europe,false
+BAH,BAH,BAH,Bahamas,FIBA Americas,false
+CUB,CUB,CUB,Cuba,FIBA Americas,false
+COL,COL,COL,Colombia,FIBA Americas,false
+CHI,CHI,CHI,Chile,FIBA Americas,false
+PAR,PAR,PAR,Paraguay,FIBA Americas,false
+ECU,ECU,ECU,Ecuador,FIBA Americas,false
+BOL,BOL,BOL,Bolivia,FIBA Americas,false
+PER,PER,PER,Peru,FIBA Americas,false
+GUY,GUY,GUY,Guyana,FIBA Americas,false
+SUR,SUR,SUR,Suriname,FIBA Americas,false
+BLZ,BLZ,BLZ,Belize,FIBA Americas,false
+GUA,GUA,GUA,Guatemala,FIBA Americas,false
+HON,HON,HON,Honduras,FIBA Americas,false
+NCA,NCA,NCA,Nicaragua,FIBA Americas,false
+CRC,CRC,CRC,Costa Rica,FIBA Americas,false
+ESA,ESA,ESA,El Salvador,FIBA Americas,false
+BAR,BAR,BAR,Barbados,FIBA Americas,false
+TTO,TTO,TTO,Trinidad and Tobago,FIBA Americas,false
+ANT,ANT,ANT,Antigua and Barbuda,FIBA Americas,false
+BER,BER,BER,Bermuda,FIBA Americas,false
+CAY,CAY,CAY,Cayman Islands,FIBA Americas,false
+DMA,DMA,DMA,Dominica,FIBA Americas,false
+GRN,GRN,GRN,Grenada,FIBA Americas,false
+SKN,SKN,SKN,Saint Kitts and Nevis,FIBA Americas,false
+LCA,LCA,LCA,Saint Lucia,FIBA Americas,false
+VIN,VIN,VIN,Saint Vincent and the Grenadines,FIBA Americas,false
+ARU,ARU,ARU,Aruba,FIBA Americas,false
+IVB,IVB,IVB,British Virgin Islands,FIBA Americas,false
+ISV,ISV,ISV,Virgin Islands,FIBA Americas,false
+TCA,TCA,TCA,Turks and Caicos Islands,FIBA Americas,false
+HAI,HAI,HAI,Haiti,FIBA Americas,false
+FIJ,FIJ,FIJ,Fiji,FIBA Oceania,false
+GUM,GUM,GUM,Guam,FIBA Oceania,false
+SAM,SAM,SAM,Samoa,FIBA Oceania,false
+ASA,ASA,ASA,American Samoa,FIBA Oceania,false
+TAH,TAH,TAH,Tahiti,FIBA Oceania,false
+PNG,PNG,PNG,Papua New Guinea,FIBA Oceania,false
+NCL,NCL,NCL,New Caledonia,FIBA Oceania,false
+SOL,SOL,SOL,Solomon Islands,FIBA Oceania,false
+VAN,VAN,VAN,Vanuatu,FIBA Oceania,false
+COK,COK,COK,Cook Islands,FIBA Oceania,false
+FSM,FSM,FSM,Micronesia,FIBA Oceania,false
+KIR,KIR,KIR,Kiribati,FIBA Oceania,false
+MHL,MHL,MHL,Marshall Islands,FIBA Oceania,false
+NRU,NRU,NRU,Nauru,FIBA Oceania,false
+PLW,PLW,PLW,Palau,FIBA Oceania,false
+TGA,TGA,TGA,Tonga,FIBA Oceania,false
+TUV,TUV,TUV,Tuvalu,FIBA Oceania,false
+NFK,NFK,NFK,Norfolk Island,FIBA Oceania,false
+MNP,MNP,MNP,Northern Mariana Islands,FIBA Oceania,false

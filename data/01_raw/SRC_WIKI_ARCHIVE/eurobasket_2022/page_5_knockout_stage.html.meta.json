@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2022_knockout_stage",
+  "retrieval_timestamp_utc": "2026-08-18T02:16:03.454759+00:00",
+  "content_sha256": "6c818c69085f3b8cda148c107082feb4e7652eb2a282535b6264b90dbd450266",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "54c8e1ad-cbc5-4b26-ae04-71f2adff49f1",
+  "http_status": 200,
+  "request_params": null
+}

@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2011_Group_C",
+  "retrieval_timestamp_utc": "2026-08-18T02:15:33.447228+00:00",
+  "content_sha256": "cb7f24367816464c6ea8e4e4f06ddd464e12a00269e7b612fdc533504aed9147",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "45c1b8d7-923d-4e03-8a03-2e5b2172b0f2",
+  "http_status": 200,
+  "request_params": null
+}

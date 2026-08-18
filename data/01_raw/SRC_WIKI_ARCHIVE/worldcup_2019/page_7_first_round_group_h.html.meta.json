@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2019_FIBA_Basketball_World_Cup_Group_H",
+  "retrieval_timestamp_utc": "2026-08-18T02:35:09.073251+00:00",
+  "content_sha256": "4c3105c0c9f1ea325a9a5659d3cdd2cd1f414d0cb689ee5bf52677f4d43bae64",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "ade45960-b93f-4b16-81c8-5765b93bcf5b",
+  "http_status": 200,
+  "request_params": null
+}

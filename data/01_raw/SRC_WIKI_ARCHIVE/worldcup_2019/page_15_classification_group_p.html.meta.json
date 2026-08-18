@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2019_FIBA_Basketball_World_Cup_Group_P",
+  "retrieval_timestamp_utc": "2026-08-18T02:35:25.054939+00:00",
+  "content_sha256": "744635ce96af2ef9985838944051cf7b05410a346950f0d718eeeff467fb73a6",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "b855721e-207c-458f-9722-d0cd59529345",
+  "http_status": 200,
+  "request_params": null
+}

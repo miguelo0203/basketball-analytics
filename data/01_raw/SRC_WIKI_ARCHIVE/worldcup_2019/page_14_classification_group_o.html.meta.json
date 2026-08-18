@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2019_FIBA_Basketball_World_Cup_Group_O",
+  "retrieval_timestamp_utc": "2026-08-18T02:35:23.061926+00:00",
+  "content_sha256": "3c9ed354a749b40ee8fd24268f737dba449fce6389a1a48f498c176dcf99de04",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "57efe34b-11a0-4685-8f19-5fbc454d6736",
+  "http_status": 200,
+  "request_params": null
+}

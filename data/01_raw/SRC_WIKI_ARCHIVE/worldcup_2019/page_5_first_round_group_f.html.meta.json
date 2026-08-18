@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2019_FIBA_Basketball_World_Cup_Group_F",
+  "retrieval_timestamp_utc": "2026-08-18T02:35:05.035995+00:00",
+  "content_sha256": "7c6abf63f9ac5694165cfa51f20639aac0bc91b29cce4f82a48b3472d3affe3c",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "42d14706-56a9-4940-9fc5-5984a5d865a3",
+  "http_status": 200,
+  "request_params": null
+}

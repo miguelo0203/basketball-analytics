@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2015_Group_B",
+  "retrieval_timestamp_utc": "2026-08-18T02:39:26.026921+00:00",
+  "content_sha256": "6467cb9c4646f5693f0e80dcfde663ea68568e90818dc12986e3ad61644a0d09",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "e20fef09-ca7a-458f-b71f-1b7959ed136c",
+  "http_status": 200,
+  "request_params": null
+}

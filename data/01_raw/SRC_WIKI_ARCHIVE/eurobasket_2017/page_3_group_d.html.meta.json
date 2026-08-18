@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2017_Group_D",
+  "retrieval_timestamp_utc": "2026-08-18T02:38:55.451501+00:00",
+  "content_sha256": "7bebdffd0071c43ce6fbf5325a1be744b070e1d7e3637768182011cc103781bb",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "82f1bb09-e5d6-4c82-9ae8-8762041c46c2",
+  "http_status": 200,
+  "request_params": null
+}

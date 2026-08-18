@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2019_FIBA_Basketball_World_Cup_Group_B",
+  "retrieval_timestamp_utc": "2026-08-18T02:34:57.072702+00:00",
+  "content_sha256": "cd1b0662906f2d4870c6afe71369ad0d72eecbec68740ec5e6beea03005809ee",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "bedddf5c-82c6-49e3-a9b6-40e1c84cafd6",
+  "http_status": 200,
+  "request_params": null
+}

@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2013_Second_round",
+  "retrieval_timestamp_utc": "2026-08-18T02:16:45.085251+00:00",
+  "content_sha256": "fe58906b3ff22e486c03a0b5dba0194e6ff0bb235c80e8d8e4c1537c2c50de16",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "f28844eb-1215-4988-97f7-edcaebd998aa",
+  "http_status": 404,
+  "request_params": null
+}

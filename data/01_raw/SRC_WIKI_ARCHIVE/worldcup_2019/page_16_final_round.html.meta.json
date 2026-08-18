@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2019_FIBA_Basketball_World_Cup_final_round",
+  "retrieval_timestamp_utc": "2026-08-18T02:35:27.027669+00:00",
+  "content_sha256": "70e06fa60429022c6b39b77a90601226efc740918e9c04b4507a58262d7d9d82",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "64c490a0-7a7c-4a98-9947-702a839421e6",
+  "http_status": 200,
+  "request_params": null
+}

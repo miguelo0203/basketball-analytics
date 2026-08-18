@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2022_Group_B",
+  "retrieval_timestamp_utc": "2026-08-18T02:15:57.452702+00:00",
+  "content_sha256": "0bdf8ce10db2310bb10a65f535cd2748c8698c0c9b00cc8a341c3c72da7ed925",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "cb3df476-6fb5-4063-afe8-22f24667653a",
+  "http_status": 200,
+  "request_params": null
+}

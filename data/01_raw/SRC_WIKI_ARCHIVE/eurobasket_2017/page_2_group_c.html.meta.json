@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2017_Group_C",
+  "retrieval_timestamp_utc": "2026-08-18T02:38:53.443393+00:00",
+  "content_sha256": "b3badf9a70e4d3c54c24e60c1d084d42bca94269602e03a288ccd996c660eb02",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "55925e0e-3bdb-4bb7-aa81-25d1e263570f",
+  "http_status": 200,
+  "request_params": null
+}

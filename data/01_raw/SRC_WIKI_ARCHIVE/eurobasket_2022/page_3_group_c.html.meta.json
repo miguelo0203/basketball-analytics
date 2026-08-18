@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2022_Group_C",
+  "retrieval_timestamp_utc": "2026-08-18T02:15:59.455664+00:00",
+  "content_sha256": "b74cda015914a56003c742f850cb14a2add1acc13c636c87f39049297c198149",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "0b0aa7ad-2461-4276-8601-7419c1f9e42e",
+  "http_status": 200,
+  "request_params": null
+}

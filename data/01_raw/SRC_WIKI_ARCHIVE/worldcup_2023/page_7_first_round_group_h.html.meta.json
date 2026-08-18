@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2023_FIBA_Basketball_World_Cup_Group_H",
+  "retrieval_timestamp_utc": "2026-08-18T02:37:06.393207+00:00",
+  "content_sha256": "52682bd822cffe11fa07f06beccbd1096d2e20d254c49a875efb52cfa2b99dcf",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "75cc7473-a94a-45fe-9161-4216df812620",
+  "http_status": 200,
+  "request_params": null
+}

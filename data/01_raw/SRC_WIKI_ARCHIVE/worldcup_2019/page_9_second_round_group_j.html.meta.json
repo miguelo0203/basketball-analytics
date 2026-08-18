@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2019_FIBA_Basketball_World_Cup_Group_J",
+  "retrieval_timestamp_utc": "2026-08-18T02:35:13.047241+00:00",
+  "content_sha256": "6eaae4cf9b3ff57316431bb432ca54fa713431e3f5295a59124c9c6aab8a9b7e",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "5b84c0be-14c9-46af-a74f-ee38ce1fdc4c",
+  "http_status": 200,
+  "request_params": null
+}

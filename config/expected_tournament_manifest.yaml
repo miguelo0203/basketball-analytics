@@ -1,0 +1,235 @@
+# Expected Tournament Manifest for Validation Gates
+# Explicitly defines structural expectations for MVP-0 (EuroBasket) and MVP-1 (World Cups & Olympics)
+
+mvp0_tournaments:
+  eurobasket_2005:
+    tournament_id: "eurobasket_2005"
+    competition: "FIBA EuroBasket"
+    official_name: "FIBA EuroBasket 2005"
+    year: 2005
+    host: "Serbia and Montenegro"
+    expected_teams: 16
+    expected_games: 40
+    expected_rule_set: "fiba_2005_2010"
+    format_description: "4 groups of 4; 2nd/3rd place elimination playoffs; Quarter-Finals; Semi-Finals; Final & Classification 5-8"
+    source_priority: ["SRC_FIBA_ARCHIVE", "SRC_BREF", "SRC_FEB"]
+
+  eurobasket_2007:
+    tournament_id: "eurobasket_2007"
+    competition: "FIBA EuroBasket"
+    official_name: "FIBA EuroBasket 2007"
+    year: 2007
+    host: "Spain"
+    expected_teams: 16
+    expected_games: 54
+    expected_rule_set: "fiba_2005_2010"
+    format_description: "Preliminary round (4x4); Qualifying round (2x6); Quarter-Finals; Semi-Finals; Final & Classification 5-8"
+    source_priority: ["SRC_FIBA_ARCHIVE", "SRC_BREF", "SRC_FEB"]
+
+  eurobasket_2009:
+    tournament_id: "eurobasket_2009"
+    competition: "FIBA EuroBasket"
+    official_name: "FIBA EuroBasket 2009"
+    year: 2009
+    host: "Poland"
+    expected_teams: 16
+    expected_games: 54
+    expected_rule_set: "fiba_2005_2010"
+    format_description: "Preliminary round (4x4); Qualifying round (2x6); Quarter-Finals; Semi-Finals; Final & Classification 5-8"
+    source_priority: ["SRC_FIBA_ARCHIVE", "SRC_BREF", "SRC_FEB"]
+
+  eurobasket_2011:
+    tournament_id: "eurobasket_2011"
+    competition: "FIBA EuroBasket"
+    official_name: "FIBA EuroBasket 2011"
+    year: 2011
+    host: "Lithuania"
+    expected_teams: 24
+    expected_games: 90
+    expected_rule_set: "fiba_2011_2013"
+    format_description: "Expansion to 24 teams; Preliminary (4x6); Second Round (2x6); Quarter-Finals; Semi-Finals; Final & Classification 5-8"
+    source_priority: ["SRC_FIBA_ARCHIVE", "SRC_BREF", "SRC_FEB"]
+
+  eurobasket_2013:
+    tournament_id: "eurobasket_2013"
+    competition: "FIBA EuroBasket"
+    official_name: "FIBA EuroBasket 2013"
+    year: 2013
+    host: "Slovenia"
+    expected_teams: 24
+    expected_games: 90
+    expected_rule_set: "fiba_2011_2013"
+    format_description: "Preliminary (4x6); Second Round (2x6); Quarter-Finals; Semi-Finals; Final & Classification 5-8"
+    source_priority: ["SRC_FIBA_ARCHIVE", "SRC_BREF", "SRC_FEB"]
+
+  eurobasket_2015:
+    tournament_id: "eurobasket_2015"
+    competition: "FIBA EuroBasket"
+    official_name: "FIBA EuroBasket 2015"
+    year: 2015
+    host: "France / Croatia / Germany / Latvia"
+    expected_teams: 24
+    expected_games: 79
+    expected_rule_set: "fiba_2014_present"
+    format_description: "Group phase (4x6); Round of 16 knockout; Quarter-Finals; Semi-Finals; Final & Olympic Qualifying matches (3 classification games)"
+    source_priority: ["SRC_FIBA_ARCHIVE", "SRC_FIBA_LIVESTATS", "SRC_BREF", "SRC_FEB"]
+
+  eurobasket_2017:
+    tournament_id: "eurobasket_2017"
+    competition: "FIBA EuroBasket"
+    official_name: "FIBA EuroBasket 2017"
+    year: 2017
+    host: "Turkey / Finland / Israel / Romania"
+    expected_teams: 24
+    expected_games: 76
+    expected_rule_set: "fiba_2014_present"
+    format_description: "Group phase (4x6); Round of 16 knockout; Quarter-Finals; Semi-Finals; Bronze & Final (No classification games)"
+    source_priority: ["SRC_FIBA_ARCHIVE", "SRC_FIBA_LIVESTATS", "SRC_BREF", "SRC_FEB"]
+
+  eurobasket_2022:
+    tournament_id: "eurobasket_2022"
+    competition: "FIBA EuroBasket"
+    official_name: "FIBA EuroBasket 2022"
+    year: 2022
+    host: "Germany / Czech Republic / Georgia / Italy"
+    expected_teams: 24
+    expected_games: 76
+    expected_rule_set: "fiba_2014_present"
+    format_description: "Group phase (4x6); Round of 16 knockout; Quarter-Finals; Semi-Finals; Bronze & Final (No classification games)"
+    source_priority: ["SRC_FIBA_MODERN", "SRC_FIBA_LIVESTATS", "SRC_BREF", "SRC_FEB"]
+
+mvp1_tournaments:
+  worldcup_2006:
+    tournament_id: "worldcup_2006"
+    competition: "FIBA World Cup"
+    official_name: "FIBA World Championship 2006"
+    year: 2006
+    host: "Japan"
+    expected_teams: 24
+    expected_games: 80
+    expected_rule_set: "fiba_2005_2010"
+    format_description: "Preliminary (4x6); Round of 16; Quarter-Finals; Semi-Finals; Final & Classification 5-8"
+    source_priority: ["SRC_FIBA_ARCHIVE", "SRC_BREF"]
+
+  worldcup_2010:
+    tournament_id: "worldcup_2010"
+    competition: "FIBA World Cup"
+    official_name: "FIBA World Championship 2010"
+    year: 2010
+    host: "Turkey"
+    expected_teams: 24
+    expected_games: 80
+    expected_rule_set: "fiba_2005_2010"
+    format_description: "Preliminary (4x6); Round of 16; Quarter-Finals; Semi-Finals; Final & Classification 5-8"
+    source_priority: ["SRC_FIBA_ARCHIVE", "SRC_BREF"]
+
+  worldcup_2014:
+    tournament_id: "worldcup_2014"
+    competition: "FIBA World Cup"
+    official_name: "FIBA Basketball World Cup 2014"
+    year: 2014
+    host: "Spain"
+    expected_teams: 24
+    expected_games: 76
+    expected_rule_set: "fiba_2014_present"
+    format_description: "Preliminary (4x6); Round of 16; Quarter-Finals; Semi-Finals; Bronze & Final"
+    source_priority: ["SRC_FIBA_ARCHIVE", "SRC_FIBA_LIVESTATS", "SRC_BREF"]
+
+  worldcup_2019:
+    tournament_id: "worldcup_2019"
+    competition: "FIBA World Cup"
+    official_name: "FIBA Basketball World Cup 2019"
+    year: 2019
+    host: "China"
+    expected_teams: 32
+    expected_games: 92
+    expected_rule_set: "fiba_2014_present"
+    format_description: "First Round (8x4); Second Round (4x4); Classification 17-32 (4x4); Quarter-Finals; Semi-Finals; Final & Classification 5-8"
+    source_priority: ["SRC_FIBA_MODERN", "SRC_FIBA_LIVESTATS", "SRC_BREF"]
+
+  worldcup_2023:
+    tournament_id: "worldcup_2023"
+    competition: "FIBA World Cup"
+    official_name: "FIBA Basketball World Cup 2023"
+    year: 2023
+    host: "Philippines / Japan / Indonesia"
+    expected_teams: 32
+    expected_games: 92
+    expected_rule_set: "fiba_2014_present"
+    format_description: "First Round (8x4); Second Round (4x4); Classification 17-32 (4x4); Quarter-Finals; Semi-Finals; Final & Classification 5-8"
+    source_priority: ["SRC_FIBA_MODERN", "SRC_FIBA_LIVESTATS", "SRC_BREF"]
+
+  olympics_2008:
+    tournament_id: "olympics_2008"
+    competition: "Olympic Games"
+    official_name: "Beijing 2008 Men's Olympic Basketball Tournament"
+    year: 2008
+    host: "China"
+    expected_teams: 12
+    expected_games: 38
+    expected_rule_set: "fiba_2005_2010"
+    format_description: "2 groups of 6 (30 games); Quarter-Finals (4); Semi-Finals (2); Bronze (1); Final (1)"
+    source_priority: ["SRC_FIBA_ARCHIVE", "SRC_BREF"]
+
+  olympics_2012:
+    tournament_id: "olympics_2012"
+    competition: "Olympic Games"
+    official_name: "London 2012 Men's Olympic Basketball Tournament"
+    year: 2012
+    host: "United Kingdom"
+    expected_teams: 12
+    expected_games: 38
+    expected_rule_set: "fiba_2011_2013"
+    format_description: "2 groups of 6 (30 games); Quarter-Finals (4); Semi-Finals (2); Bronze (1); Final (1)"
+    source_priority: ["SRC_FIBA_ARCHIVE", "SRC_BREF"]
+
+  olympics_2016:
+    tournament_id: "olympics_2016"
+    competition: "Olympic Games"
+    official_name: "Rio 2016 Men's Olympic Basketball Tournament"
+    year: 2016
+    host: "Brazil"
+    expected_teams: 12
+    expected_games: 38
+    expected_rule_set: "fiba_2014_present"
+    format_description: "2 groups of 6 (30 games); Quarter-Finals (4); Semi-Finals (2); Bronze (1); Final (1)"
+    source_priority: ["SRC_FIBA_ARCHIVE", "SRC_FIBA_LIVESTATS", "SRC_BREF"]
+
+  olympics_2020:
+    tournament_id: "olympics_2020"
+    competition: "Olympic Games"
+    official_name: "Tokyo 2020 Men's Olympic Basketball Tournament"
+    year: 2021
+    host: "Japan"
+    expected_teams: 12
+    expected_games: 26
+    expected_rule_set: "fiba_2014_present"
+    format_description: "3 groups of 4 (18 games); Quarter-Finals (4); Semi-Finals (2); Bronze (1); Final (1)"
+    source_priority: ["SRC_FIBA_MODERN", "SRC_FIBA_LIVESTATS", "SRC_BREF"]
+
+  olympics_2024:
+    tournament_id: "olympics_2024"
+    competition: "Olympic Games"
+    official_name: "Paris 2024 Men's Olympic Basketball Tournament"
+    year: 2024
+    host: "France"
+    expected_teams: 12
+    expected_games: 26
+    expected_rule_set: "fiba_2014_present"
+    format_description: "3 groups of 4 (18 games); Quarter-Finals (4); Semi-Finals (2); Bronze (1); Final (1)"
+    source_priority: ["SRC_FIBA_MODERN", "SRC_FIBA_LIVESTATS", "SRC_BREF"]
+
+mvp0_summary:
+  total_tournaments: 8
+  total_expected_games: 559
+  total_expected_team_games: 1118
+
+mvp1_summary:
+  total_tournaments: 10
+  total_expected_games: 586
+  total_expected_team_games: 1172
+
+combined_summary:
+  total_tournaments: 18
+  total_expected_games: 1145
+  total_expected_team_games: 2290

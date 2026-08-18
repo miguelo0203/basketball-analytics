@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2015",
+  "retrieval_timestamp_utc": "2026-08-18T02:16:49.118494+00:00",
+  "content_sha256": "745d1be23df80df333759fe6af8f06397a24212dd91b66c1e60e3b4024ceb88d",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "33ac71b9-74be-424a-a3bc-0a4a68128052",
+  "http_status": 200,
+  "request_params": null
+}

@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/2023_FIBA_Basketball_World_Cup_Group_N",
+  "retrieval_timestamp_utc": "2026-08-18T02:37:18.498763+00:00",
+  "content_sha256": "14116b69090e52cdeadd2c14ec6ac08b018be8e2c405c262ea64380200520afa",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "2e640844-1e18-44a6-ae41-cdc8846a157a",
+  "http_status": 200,
+  "request_params": null
+}

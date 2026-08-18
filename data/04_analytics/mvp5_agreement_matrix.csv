@@ -1,0 +1,10 @@
+category_type,category_name,sample_size,strong_agreement,partial_agreement,contradictory,overall_agreement_rate
+Archetype,Low-Block Anchor / Interior Scorer,4,4,0,0,1.0
+Archetype,Perimeter Movement Shooter / Spacer,3,3,0,0,1.0
+Archetype,Primary Initiator / Floor General,2,2,0,0,1.0
+Archetype,Rim Protector / Roll Threat & Anchor,2,2,0,0,1.0
+Archetype,Stretch Big / Pick-and-Pop Forward,4,4,0,0,1.0
+Hypothesis,H1: Closeout Attack Quality,45,45,0,0,1.0
+Hypothesis,H2: P&R Read Manipulation,45,39,6,0,0.933
+Hypothesis,H3: On-Ball Screen Navigation,30,0,26,4,0.433
+Hypothesis,H4: Pick-and-Pop Depth,30,30,0,0,1.0

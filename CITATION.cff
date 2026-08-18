@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software or analytical dataset, please cite it as below."
+authors:
+  - family-names: "Miguel"
+    given-names: "Analytics"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "International Basketball Analytics (2005–2024): End-to-End Decision Support & Machine Learning System"
+version: 1.0.0
+date-released: 2026-08-19
+url: "https://github.com/miguel/basketball-analytics"
+repository-code: "https://github.com/miguel/basketball-analytics"
+keywords:
+  - "basketball-analytics"
+  - "sports-analytics"
+  - "duckdb"
+  - "python"
+  - "rstats"
+  - "quarto"
+  - "lightgbm"
+  - "walk-forward-validation"
+  - "monte-carlo"
+  - "sports-data-engineering"
+license: "MIT"
+abstract: "End-to-End International Basketball Analytics System covering 20 years of official FIBA tournaments (1,145 games, 27,353 player boxscores). Combines DuckDB OLAP infrastructure, calibrated LightGBM machine learning in 17 walk-forward folds, non-parametric R statistics, and tactical decision support for coaching staffs."

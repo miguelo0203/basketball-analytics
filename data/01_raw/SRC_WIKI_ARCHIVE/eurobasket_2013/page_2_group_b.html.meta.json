@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2013_Group_B",
+  "retrieval_timestamp_utc": "2026-08-18T02:16:39.085606+00:00",
+  "content_sha256": "f91cc29899efd9733a2b655732f64698cb8f3aa1c817d64e89a31722b779b834",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "4d16e3e0-714f-4a7b-a906-f32efe1787d1",
+  "http_status": 200,
+  "request_params": null
+}

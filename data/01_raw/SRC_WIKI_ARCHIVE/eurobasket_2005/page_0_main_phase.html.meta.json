@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2005",
+  "retrieval_timestamp_utc": "2026-08-18T02:15:25.592725+00:00",
+  "content_sha256": "48bed138831d8d5e502f41f934b053a6e93b28f0c54e182b5bacef6f305cb142",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "a95c09c6-16fe-4ec1-9a46-e2159b1921c9",
+  "http_status": 200,
+  "request_params": null
+}

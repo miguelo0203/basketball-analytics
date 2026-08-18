@@ -1,0 +1,10 @@
+{
+  "source_id": "SRC_WIKI_ARCHIVE",
+  "source_url": "https://en.wikipedia.org/wiki/EuroBasket_2013_Group_E",
+  "retrieval_timestamp_utc": "2026-08-18T02:39:20.052344+00:00",
+  "content_sha256": "fa81dff8dec90202e1490afb3189e56dcda54ed690e4aa2353250dbaf9d64f71",
+  "parser_version": "1.0.0",
+  "ingestion_run_id": "7d7de99c-424b-4fdb-afd4-744cfb77f4f8",
+  "http_status": 200,
+  "request_params": null
+}

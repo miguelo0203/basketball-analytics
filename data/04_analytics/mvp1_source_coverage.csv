@@ -1,0 +1,11 @@
+tournament_id,source_id,expected_games,accessible_games,complete_boxscores,player_stats_available,overtime_information,source_status,limitations
+worldcup_2006,SRC_WIKI_ARCHIVE,80,80,true,true,true,ACTIVE,Historical summary & knockout tables
+worldcup_2010,SRC_WIKI_ARCHIVE,80,80,true,true,true,ACTIVE,Dedicated group and knockout stage subpages
+worldcup_2014,SRC_WIKI_ARCHIVE,76,76,true,true,true,ACTIVE,Dedicated group and final round subpages
+worldcup_2019,SRC_WIKI_ARCHIVE,92,92,true,true,true,ACTIVE,16 modular group and final round subpages
+worldcup_2023,SRC_WIKI_ARCHIVE,92,92,true,true,true,ACTIVE,16 modular group and final round subpages
+olympics_2008,SRC_WIKI_ARCHIVE,38,38,true,true,true,ACTIVE,Official Olympic basketball match sheets
+olympics_2012,SRC_WIKI_ARCHIVE,38,38,true,true,true,ACTIVE,Official Olympic basketball match sheets
+olympics_2016,SRC_WIKI_ARCHIVE,38,38,true,true,true,ACTIVE,Official Olympic basketball match sheets
+olympics_2020,SRC_WIKI_ARCHIVE,26,26,true,true,true,ACTIVE,Official Olympic basketball match sheets
+olympics_2024,SRC_WIKI_ARCHIVE,26,26,true,true,true,ACTIVE,Official Olympic basketball match sheets
