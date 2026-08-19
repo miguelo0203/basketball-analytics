@@ -132,6 +132,17 @@ Consulta la gobernanza de métricas en **[docs/claims_y_limitaciones.md](docs/cl
 
 👉 **[Leer el Caso Flagship Completo en portfolio/flagship_case.md](portfolio/flagship_case.md)**
 
+## Casos de Estudio Seleccionados (Portfolio Showcase)
+
+Accede a los 4 casos de estudio emblemáticos diseñados según el perfil del revisor:
+
+- 🏀 **[Caso 1: Soporte Táctico y Briefs Prepartido](portfolio/case_studies/case_01_tactical_decision_support.md)** — Resumen en 1.5 páginas, Four Factors y el caso Pekín 2008.
+- ⚙️ **[Caso 2: Ingeniería de Datos con DuckDB y Parquet](portfolio/case_studies/case_02_data_engineering_olap_duckdb.md)** — Arquitectura de medallón, desduplicación de 2.124 jugadores y 227 tests.
+- 🤖 **[Caso 3: Machine Learning Calibrado Walk-Forward](portfolio/case_studies/case_03_calibrated_ml_walk_forward.md)** — Prevención de data leakage en 17 folds, Brier Score 0.1967 y ECE 0.0314.
+- 📊 **[Caso 4: Estabilidad Longitudinal y Minería de Roles](portfolio/case_studies/case_04_longitudinal_shooting_and_roles.md)** — Contracción bayesiana de tiro, 6 arquetipos funcionales e informes Quarto.
+
+👉 **[Ver Hub de Casos de Estudio en portfolio/case_studies/README.md](portfolio/case_studies/README.md)**
+
 ---
 
 ## Workspace Interactivo del Analista (Streamlit)
@@ -139,14 +150,14 @@ Consulta la gobernanza de métricas en **[docs/claims_y_limitaciones.md](docs/cl
 Ejecuta la aplicación interactiva localmente con un único comando:
 
 ```bash
-streamlit run src/analytics/mvp10_analyst_workspace.py -- streamlit
+streamlit run src/analytics/mvp10_analyst_workspace.py
 ```
 
 ### Características del Workspace:
 - **Modo Demo Rápido**: Walkthrough guiado de Pekín 2008 en 5 minutos.
 - **Garantía Anti-Hindsight**: Aísla la información prepartido en $T-30$, $T-7$, $T-1$ y Día de Partido; el resultado final permanece oculto hasta su revelación voluntaria.
-- **Descomposición en 8 Capas**: Four Factors, roles funcionales, cinta de vídeo, ML calibrado e intervalos bootstrap.
-- **Alertas de Contradicción**: Identifica discrepancias entre números agregados y patrones visuales.
+- **Descomposición Analítica**: Four Factors, roles funcionales, ML calibrado e intervalos bootstrap.
+- **Detección de Inconsistencias**: Identifica discrepancias entre números agregados y muestras reducidas.
 
 ---
 
@@ -188,7 +199,7 @@ Consulta la presentación profesional de 30 diapositivas para cuerpos técnicos,
 ## Limitaciones y Transparencia
 
 - **Muestras de Torneo**: 6–9 partidos por campeonato implican varianza natural en los porcentajes de tiro.
-- **Sin Tracking Óptico 25Hz**: Proyecto basado en actas oficiales y vídeo cualitativo; no dispone de datos privados de cámaras en vivo de clubes.
+- **Sin Tracking Óptico 25Hz**: Proyecto Data-First basado en actas oficiales y eventos estructurados; no dispone de datos privados de cámaras en vivo de clubes.
 - **Atribución $\ne$ Causalidad**: Las métricas estadísticas describen asociaciones históricas, no garantías causales.
 - **Soporte $\ne$ Decisión**: El software estructura la evidencia; el entrenador decide la táctica.
 
@@ -203,11 +214,11 @@ Consulta la presentación profesional de 30 diapositivas para cuerpos técnicos,
 - 🗄️ **[Datos y Procedencia DuckDB](docs/datos.md)**
 - 📐 **[Metodología y Four Factors](docs/metodologia.md)**
 - 🤖 **[Machine Learning y Calibración](docs/machine_learning.md)**
-- 🎥 **[Análisis Táctico y Vídeo](docs/analisis_tactico.md)**
-- 📋 **[Soporte a Decisiones y Briefs](docs/soporte_decisiones.md)**
-- 📊 **[Capa Analítica en R](R/README.md)**
+- 📋 **[Análisis Táctico y Toma de Decisiones](docs/analisis_tactico.md)**
+- 📊 **[Soporte a Decisiones y Briefs](docs/soporte_decisiones.md)**
+- 📈 **[Capa Analítica en R](R/README.md)**
 - ⚙️ **[Guía de Reproducibilidad](docs/reproducibilidad.md)**
-- 🧪 **[Marco de Testing (224 tests)](docs/testing.md)**
+- 🧪 **[Marco de Testing (227 tests)](docs/testing.md)**
 - ⚠️ **[Límites Metodológicos](docs/limitaciones.md)**
 - 🛡️ **[Gobernanza de Claims](docs/claims_y_limitaciones.md)**
 - 🧭 **[Guía del Revisor de GitHub](docs/github_reviewer_journey.md)**

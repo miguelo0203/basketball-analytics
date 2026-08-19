@@ -31,13 +31,11 @@ def reports_dir() -> Path:
 
 
 def test_final_status_declared_ready(root_dir: Path):
-    """Verify FINAL_STATUS.md exists and certifies PORTFOLIO READY."""
-    status_path = root_dir / "FINAL_STATUS.md"
-    assert status_path.exists(), "FINAL_STATUS.md missing"
+    """Verify final freeze verdict exists and certifies release ready."""
+    status_path = root_dir / "reports" / "mvp29_final_freeze_verdict.md"
+    assert status_path.exists(), "mvp29_final_freeze_verdict.md missing"
     content = status_path.read_text(encoding="utf-8")
-    assert "PROJECT STATUS: PORTFOLIO READY" in content
-    assert "Strongest Asset" in content
-    assert "Job-Search Strategy" in content
+    assert "FROZEN & RELEASE-READY" in content or "RELEASE READY" in content
 
 
 def test_reproducibility_guide_exists(root_dir: Path):
@@ -82,43 +80,38 @@ def test_public_figures_and_guide_exist(root_dir: Path):
         assert (fig_dir / fig).exists(), f"Missing figure: {fig}"
 
 
-def test_interview_package_completeness(root_dir: Path):
-    """Verify all 7 interview modules exist in interview/."""
-    interview_dir = root_dir / "interview"
-    assert interview_dir.exists(), "interview/ directory missing"
+def test_case_studies_package_completeness(root_dir: Path):
+    """Verify all 4 case studies and README hub exist in portfolio/case_studies/."""
+    cs_dir = root_dir / "portfolio" / "case_studies"
+    assert cs_dir.exists(), "portfolio/case_studies/ directory missing"
     
     required_docs = [
-        "01_project_pitch.md",
-        "02_flagship_case.md",
-        "03_technical_questions.md",
-        "04_basketball_questions.md",
-        "05_data_engineering_questions.md",
-        "06_methodology_defense.md",
-        "07_questions_to_ask_employer.md"
+        "README.md",
+        "case_01_tactical_decision_support.md",
+        "case_02_data_engineering_olap_duckdb.md",
+        "case_03_calibrated_ml_walk_forward.md",
+        "case_04_longitudinal_shooting_and_roles.md"
     ]
     for doc in required_docs:
-        p = interview_dir / doc
-        assert p.exists(), f"Missing interview doc: {doc}"
+        p = cs_dir / doc
+        assert p.exists(), f"Missing case study doc: {doc}"
         assert len(p.read_text(encoding="utf-8")) > 100
 
 
-def test_career_package_completeness(root_dir: Path):
-    """Verify all 6 career outreach modules exist in career/."""
-    career_dir = root_dir / "career"
-    assert career_dir.exists(), "career/ directory missing"
+def test_presentation_package_completeness(root_dir: Path):
+    """Verify presentation PDF, PPTX, and README hub exist in presentation/."""
+    pres_dir = root_dir / "presentation"
+    assert pres_dir.exists(), "presentation/ directory missing"
     
-    required_docs = [
-        "basketball_data_analyst_cv_bullets.md",
-        "linkedin_about.md",
-        "linkedin_featured_section.md",
-        "cold_outreach_template.md",
-        "internship_outreach_template.md",
-        "project_description_100_words.md"
+    required_assets = [
+        "README.md",
+        "International_Basketball_Analytics_Presentation.pdf",
+        "International_Basketball_Analytics_Presentation.pptx"
     ]
-    for doc in required_docs:
-        p = career_dir / doc
-        assert p.exists(), f"Missing career doc: {doc}"
-        assert len(p.read_text(encoding="utf-8")) > 80
+    for asset in required_assets:
+        p = pres_dir / asset
+        assert p.exists(), f"Missing presentation asset: {asset}"
+        assert p.stat().st_size > 1000
 
 
 def test_public_claim_registry_valid(reports_dir: Path):
@@ -151,14 +144,14 @@ def test_no_banned_language_in_public_release_assets(root_dir: Path):
     ]
     check_files = [
         root_dir / "README.md",
-        root_dir / "FINAL_STATUS.md",
         root_dir / "REPRODUCIBILITY.md",
         root_dir / "portfolio" / "landing_page.md",
         root_dir / "portfolio" / "flagship_case.md",
         root_dir / "portfolio" / "linkedin_case_study.md",
-        root_dir / "career" / "basketball_data_analyst_cv_bullets.md",
-        root_dir / "career" / "linkedin_about.md",
-        root_dir / "interview" / "01_project_pitch.md"
+        root_dir / "portfolio" / "case_studies" / "case_01_tactical_decision_support.md",
+        root_dir / "portfolio" / "case_studies" / "case_02_data_engineering_olap_duckdb.md",
+        root_dir / "portfolio" / "case_studies" / "case_03_calibrated_ml_walk_forward.md",
+        root_dir / "portfolio" / "case_studies" / "case_04_longitudinal_shooting_and_roles.md"
     ]
     for p in check_files:
         if p.exists():

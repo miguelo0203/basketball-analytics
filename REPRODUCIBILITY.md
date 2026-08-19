@@ -2,17 +2,17 @@
 ## Deterministic Setup & Execution Instructions
 
 **Status**: Formally Certified Reproducibility Specification  
-**Environment**: Python 3.10+ (Tested on Python 3.14 64-bit on Windows / Linux / macOS)  
-**Database**: DuckDB in-process columnar database  
+**Environment**: Python 3.10+ (Tested on Python 3.14 64-bit on Windows / Linux / macOS) & R 4.4+  
+**Database**: DuckDB in-process columnar database & Apache Parquet  
 
 ---
 
 # 1. Quick Start Installation
 
 ```bash
-# 1. Clone repository
-git clone https://github.com/[username]/Espana2005-2025.git
-cd Espana2005-2025
+# 1. Clone repository from your public repository URL
+git clone <PUBLIC_REPOSITORY_URL>
+cd basketball-analytics
 
 # 2. Create virtual environment
 python -m venv .venv
@@ -27,8 +27,8 @@ pip install -r requirements.txt
 # 2. Database & Data Provenance Initialization
 
 The complete historical dataset is pre-packaged and validated within the repository:
-- **DuckDB Warehouse Path**: `data/03_validated/basketball_analytics.duckdb`
-- **Analytical Marts**: `data/04_marts/analytics/*.parquet`
+- **DuckDB Warehouse Path**: `data/03_validated/basketball_analytics.duckdb` (12 relational tables)
+- **Analytical Marts**: `data/04_analytics/*.parquet` (11 columnar marts)
 - **Raw Immutable Hashes**: Verified against SHA-256 signatures in `data/01_raw/`.
 
 To inspect the database structure directly in Python:
@@ -41,30 +41,40 @@ con.close()
 
 ---
 
-# 3. Running the Interactive Streamlit Analyst Workspace
+# 3. One-Command Master Execution Runner
+
+Run the full end-to-end verification pipeline (environment check, database validation, R statistical layer, and full test suite):
+
+```bash
+python scripts/run_project.py
+```
+
+---
+
+# 4. Running the Interactive Streamlit Analyst Workspace
 
 Launch the operational decision workspace locally:
 
 ```bash
-streamlit run src/analytics/mvp10_analyst_workspace.py -- streamlit
+streamlit run src/analytics/mvp10_analyst_workspace.py
 ```
 - **Access**: Open browser at `http://localhost:8501`.
-- **Flagship Walkthrough**: Select **"🎯 5–10 Min Flagship Live Demo"** in the sidebar to review the Beijing 2008 Spain vs. USA Olympic Final pre-game evidence state.
+- **Flagship Walkthrough**: Select the Beijing 2008 Spain vs. USA pre-game evidence state.
 
 ---
 
-# 4. Running the Complete Automated Test Suite
+# 5. Running the Complete Automated Test Suite
 
-Execute all 186 unit and regression tests across all 20 test modules:
+Execute all 227 unit, integration, and regression tests across all 26 test modules:
 
 ```bash
 python -m pytest tests -q
 ```
-*Expected Output: `186 passed in ~80-100s (100% pass rate)`.*
+*Expected Output: `227 passed (100% pass rate)`.*
 
 ---
 
-# 5. Data Licensing & Open-Source Attribution
+# 6. Data Licensing & Open-Source Attribution
 
 - All match records and boxscores represent publicly available historical international senior men's basketball tournament data (FIBA EuroBasket, World Cup, Olympic Games 2005–2024).
-- No proprietary club data, commercial API keys, or private video feeds are required to execute any pipeline or test in this repository.
+- No proprietary club data, commercial API keys, or private feeds are required to execute any pipeline or test in this repository.
