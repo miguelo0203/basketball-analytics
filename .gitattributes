@@ -1,0 +1,6 @@
+# Raw historical HTML archives are data, not source code
+data/01_raw/** linguist-vendored
+
+# Generated analytical HTML reports
+R/reports/*.html linguist-generated
+reports/*.html linguist-generated
