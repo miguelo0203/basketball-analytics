@@ -2,13 +2,13 @@
 ### Sistema de análisis y soporte a decisiones para baloncesto internacional (2005–2024)
 
 ```text
-WHO:         Basketball Data Analyst Portfolio
+WHO:         Basketball Data Analyst Portfolio (Miguel)
 WHAT:        Sistema de Análisis y Soporte a Decisiones para Baloncesto Internacional
 WHY:         Evidencia rigurosa, interpretable y calibrada para cuerpos técnicos y directores deportivos
 SCOPE:       18 Torneos (2005–2024: EuroBasket, Copa del Mundo FIBA, Juegos Olímpicos — 1,145 partidos)
 TECHNOLOGY:  Python, SQL / DuckDB, Machine Learning, Inferencia Bootstrap, Streamlit
 OUTPUT:      Briefs prepartido de 1.5 páginas y Workspace interactivo anti-hindsight
-LIMITATION:  Demostración de portfolio (no es un producto comercial en vivo de club)
+GITHUB:      https://github.com/miguelo0203/basketball-analytics
 ```
 
 Este repositorio contiene un sistema analítico integral de soporte a decisiones para cuerpos técnicos y directores deportivos, desarrollado sobre dos décadas de competiciones internacionales de selecciones masculinas absolutas (18 torneos oficiales, 1,145 partidos y 27.353 actuaciones de jugador).
@@ -227,6 +227,8 @@ Consulta la presentación profesional de 30 diapositivas para cuerpos técnicos,
 
 ## Contacto y Perfil Profesional
 
-- **Candidato**: Miguel
-- **Perfil**: Basketball Data Analyst / Scouting Cuantitativo / Soporte a Decisiones Deportivas
+- **Autor**: Miguel
+- **Rol**: Basketball Data Analyst | Quantitative Scouting | Sports Decision Support
+- **GitHub**: [github.com/miguelo0203](https://github.com/miguelo0203)
+- **Contacto**: Para consultas profesionales o colaboraciones, contactar a través del perfil de GitHub asociado a este repositorio.
 - **Licencia**: [MIT License](LICENSE) con aviso de datos públicos de baloncesto.

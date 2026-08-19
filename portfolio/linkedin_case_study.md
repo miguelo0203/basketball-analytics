@@ -76,4 +76,4 @@ The value of analytics is not replacing the decision-maker. The value is giving 
 
 ---
 
-*Explore the full open-source codebase, DuckDB schemas, and interactive Streamlit workspace on GitHub: github.com/[username]/Espana2005-2025*
+*Explore the full open-source codebase, DuckDB schemas, and interactive Streamlit workspace on GitHub: https://github.com/miguelo0203/basketball-analytics*

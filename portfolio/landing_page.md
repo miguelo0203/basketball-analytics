@@ -76,5 +76,5 @@ python -m pytest tests -q
 
 ## Contact & Professional Profile
 * **Role**: Basketball Data Analyst / Scouting Analytics / Sporting Decision Support  
-* **GitHub**: `github.com/[username]/Espana2005-2025`  
-* **LinkedIn**: `linkedin.com/in/[username]`
+* **GitHub**: `github.com/miguelo0203/basketball-analytics`  
+* **Perfil**: Basketball Data Analyst | Quantitative Scouting | Sports Decision Support

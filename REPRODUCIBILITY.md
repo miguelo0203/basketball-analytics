@@ -10,8 +10,8 @@
 # 1. Quick Start Installation
 
 ```bash
-# 1. Clone repository from your public repository URL
-git clone <PUBLIC_REPOSITORY_URL>
+# 1. Clone repository from public GitHub
+git clone https://github.com/miguelo0203/basketball-analytics.git
 cd basketball-analytics
 
 # 2. Create virtual environment
