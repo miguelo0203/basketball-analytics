@@ -1,16 +1,16 @@
-[🇪🇸 Español](README.md) | [🇬🇧 English](README_EN.md)
+[🇬🇧 English](README.md) | [🇪🇸 Español](README_ES.md)
 
 # 🏀 International Basketball Analytics (2005–2024)
-> **Sistema integral de soporte a decisiones y analítica cuantitativa para 20 años de torneos FIBA de selecciones masculinas absolutas (18 torneos oficiales, 1,145 partidos, 2,290 actuaciones de equipo y 27,353 actuaciones de jugador).**
+> **Comprehensive decision-support and quantitative analytics system covering 20 years of senior men's FIBA tournaments (18 official tournaments, 1,145 matches, 2,290 team performances, 27,353 player box scores).**
 
 ```text
 WHO:         Miguel — Data Analyst | Basketball Analytics
-WHAT:        Sistema de Análisis y Soporte a Decisiones para Baloncesto Internacional
-WHY:         Evidencia cuantitativa, interpretable y calibrada para cuerpos técnicos y directores deportivos
-SCOPE:       18 Torneos (2005–2024: EuroBasket, Copa del Mundo FIBA, Juegos Olímpicos — 1,145 partidos, 2,290 actuaciones de equipo)
+WHAT:        Decision-Support & Quantitative Analytics System for International Basketball
+WHY:         Grounded, interpretable, and calibrated evidence for coaching staffs and sporting directors
+SCOPE:       18 Tournaments (2005–2024: EuroBasket, FIBA World Cup, Olympic Games — 1,145 games, 2,290 team games)
 TECHNOLOGY:  Python, DuckDB, Polars, Scikit-Learn, Streamlit, R (tidyverse, ggplot2)
-OUTPUT:      Briefs prepartido de 1.5 páginas y Workspace interactivo anti-hindsight
-LIMITATION:  Herramienta de reducción de incertidumbre estadística; no sustituye el juicio del entrenador
+OUTPUT:      1.5-page pre-game coaching briefs and anti-hindsight interactive workspace
+LIMITATION:  Statistical uncertainty reduction tool; does not replace coach basketball expertise
 ```
 
 [![DuckDB](https://img.shields.io/badge/OLAP_Store-DuckDB-yellow.svg)](https://duckdb.org/)
@@ -22,127 +22,127 @@ LIMITATION:  Herramienta de reducción de incertidumbre estadística; no sustitu
 
 ---
 
-## 🚀 Empieza Aquí — El proyecto en 30 segundos (Executive Summary)
+## 🚀 Start Here (Executive Summary)
 
-*Si es tu primera vez en este proyecto:*
-1. 👔 **[Casos de Estudio Ejecutivos (Español)](portfolio/README.md)** | **[Executive Case Studies (English)](portfolio/README_EN.md)**: 4 dossiers clave sobre decisiones tácticas, ingeniería de datos OLAP, machine learning calibrado y análisis longitudinal.
-2. 📄 **[Briefs Prepartido de Ejemplo (1.5 Páginas)](reports/mvp5_player_briefs/andreas_obst_1996_worldcup_2023_scouting_brief.md)**: Formato editorial de entrega de información para cuerpos técnicos.
-3. 📊 **[Presentación Ejecutiva en PDF (English)](presentation/International_Basketball_Analytics_Presentation.pdf)**: Slide deck completo de arquitectura y resultados del sistema.
-4. 🔬 **[Arquitectura DuckDB & Data Pipeline](#-arquitectura-técnica-y-reproducibilidad)**: Almacén analítico OLAP, modelos de Machine Learning e inferencia estadística.
-
----
-
-## 📌 ¿Qué hace el sistema? (The Professional Problem)
-
-Este repositorio contiene un **sistema integral de análisis y soporte a decisiones para baloncesto internacional**, desarrollado sobre dos décadas de competiciones oficiales de selecciones masculinas absolutas de la FIBA (EuroBasket, Copa del Mundo y Juegos Olímpicos entre 2005 y 2024).
-
-El sistema procesa **18 torneos oficiales, 1,145 partidos, 2,290 actuaciones de equipo y 27,353 actuaciones individuales de jugador**, transformando datos crudos de actas y eventos en:
-- **Briefs tácticos prepartido concisos de 1.5 páginas** para cuerpos técnicos.
-- **Un almacén analítico OLAP embebido en DuckDB** de alta velocidad.
-- **Modelos predictivos supervisados con validación temporal estricta (*Walk-Forward*)** y calibración de probabilidades.
-- **Simulaciones Monte Carlo de torneos completos** y análisis contrafáctico de escenarios competitivos.
+*New to this project?*
+1. 👔 **[Executive Case Studies (English)](portfolio/README.md)** | **[Casos de Estudio Ejecutivos (Español)](portfolio/README.md)**: 4 core dossiers covering tactical decisions, OLAP data engineering, calibrated ML, and longitudinal shooting.
+2. 📄 **[Sample Pre-Game Tactical Briefs (1.5 Pages)](reports/mvp5_player_briefs/andreas_obst_1996_worldcup_2023_scouting_brief.md)**: Editorial decision-support deliverable format designed for coaching staffs.
+3. 📊 **[Executive Presentation Deck (PDF)](presentation/International_Basketball_Analytics_Presentation.pdf)**: Complete slide deck detailing system architecture and findings.
+4. 🔬 **[DuckDB Architecture & Data Pipeline](#-technical-architecture--reproducibility)**: Embedded OLAP data mart, ML predictive models, and statistical inference.
 
 ---
 
-## 🏆 El proyecto en cifras — Resultados Clave (Audited Project Scale)
+## 📌 What is this? (The Professional Problem)
 
-- ⚡ **Ingeniería de Datos & Rendimiento OLAP**: Ingesta automatizada y validación determinista de 27,353 registros individuales, con consultas agregadas complejas ejecutadas en **<15 milisegundos sobre DuckDB**.
-- 🔮 **Modelado Predictivo Calibrado**: Modelo supervisado de predicción de encuentros con validación temporal *Walk-Forward* (sin fuga de información hacia el futuro), alcanzando un **Brier score de 0.1872** y calibración probabilística auditada.
-- 🧠 **Interpretabilidad Táctica (SHAP Values)**: Desglose cuantitativo del peso de cada variable de Four Factors en la probabilidad de victoria de cada partido.
-- 🎲 **Simulador Monte Carlo de Torneos**: Motor de 10,000 simulaciones de cuadro de competición para calcular probabilidades de medalla y escenarios contrafácticos.
-- 🟢 **Batería de Tests Exhaustiva**: Suite de **227 tests automáticos (100% de éxito en Pytest)** que validan ball math, continuidad temporal, conservación de minutos y consistencia de esquemas.
+This repository contains an **end-to-end analytics and decision-support system for international basketball**, built upon two decades of senior men's FIBA official competitions (EuroBasket, FIBA World Cup, and Olympic Games between 2005 and 2024).
 
----
-
-## 🛠️ Qué he construido — Arquitectura Visual (Technical Architecture)
-
-1. **Pipeline de Ingesta & Data Quality**: Módulos en Python (`src/acquisition`, `src/parsers`, `src/validation`) con resolución de entidades de jugadores y países.
-2. **Almacén Analítico DuckDB**: Esquema dimensional optimizado (`src/storage/schema.py`) con vistas analíticas de equipo y jugador.
-3. **Módulo de Analítica Avanzada & ML**: Clasificación de arquetipos tácticos, modelos predictivos, simulación de torneos y soporte a decisiones (`src/analytics/`).
-4. **Workspace Interactivo Streamlit**: Entorno visual para consulta de briefs prepartido y auditoría de decisiones (`src/analytics/mvp10_analyst_workspace.py`).
-5. **Entregables Editoriales & R ggplot2**: Scripts de visualización de alta calidad en R (`R/analysis/`) y generación de briefs prepartido.
+Analyzing **18 official tournaments, 1,145 games, 2,290 team performances, and 27,353 individual player performances**, the system converts raw box scores and play-by-play events into:
+- **Concise 1.5-page pre-game coaching briefs** for national team staffs.
+- **A high-performance embedded DuckDB OLAP analytical store**.
+- **Supervised win probability models with strict walk-forward temporal validation** and probability calibration.
+- **Monte Carlo full-tournament simulations** and counterfactual matchup scenario analysis.
 
 ---
 
-## 🎯 Por qué es relevante — Caso Flagship (From Raw Data to Coaching Question)
+## 🏆 Key Results (Audited Project Scale)
 
-El baloncesto de selecciones nacionales presenta retos analíticos únicos: muestras reducidas, ventanas cortas de preparación y alta varianza. Este sistema demuestra cómo estructurar un flujo de trabajo analítico riguroso que minimice la sobreinterpretación del ruido estadístico y entregue a los entrenadores únicamente señales tácticas procesables y robustas.
-
----
-
-## 🧭 Navegación del Proyecto (Project Navigation)
-
-### 👔 Vista Ejecutiva (Coaches, Scouts & Directores Deportivos)
-- 📚 [Hub de Portfolio y Casos de Estudio](portfolio/README.md)
-- 📄 [Briefs Tácticos de Jugador (Scouting)](reports/mvp5_player_briefs/)
-- 📊 [Presentación Ejecutiva en PDF](presentation/International_Basketball_Analytics_Presentation.pdf)
-- 📋 [Estudios de Caso Clave](portfolio/case_studies/)
-
-### 🔬 Vista Técnica (Data Scientists & Engineers)
-- `src/`: Código fuente modular en Python (ingesta, métricas, modelos ML, simulación).
-- `data/`: Datasets procesados y base de datos DuckDB.
-- `R/`: Scripts de visualización y modelado estadístico en R (`R/README.md`).
-- `tests/`: Suite completa de 227 tests unitarios y de integración en Pytest.
-- `reports/`: Catálogo exhaustivo de auditorías técnicas (MVP0 a MVP36).
+- ⚡ **OLAP Data Engineering & Performance**: Automated ingestion and deterministic validation of 27,353 player records, executing multi-table analytical aggregations in **<15 milliseconds on DuckDB**.
+- 🔮 **Calibrated Predictive Modeling**: Supervised game outcome prediction using strict walk-forward temporal validation (zero future data leakage), achieving an audited **Brier score of 0.1872** and excellent probability calibration.
+- 🧠 **Tactical Model Interpretability (SHAP Values)**: Quantitative breakdown of Four Factors feature contributions for individual game predictions.
+- 🎲 **Monte Carlo Tournament Simulator**: 10,000-iteration bracket simulation engine projecting medal probabilities and counterfactual tactical scenarios.
+- 🟢 **Comprehensive Test Suite**: **227 automated tests (100% passing in Pytest)** enforcing ball math consistency, temporal continuity, minute conservation, and schema integrity.
 
 ---
 
-## 📂 Estructura del Repositorio
+## 🛠️ What I Built (Technical Architecture)
+
+1. **Modular Ingestion & Quality Pipeline**: Python architecture (`src/acquisition`, `src/parsers`, `src/validation`) featuring automated entity resolution for players and national teams.
+2. **DuckDB Analytical Mart**: Dimensional schema (`src/storage/schema.py`) with analytical team and player aggregation views.
+3. **Advanced Analytics & ML Modules**: Tactical archetype clustering, predictive match models, tournament simulation, and decision engines (`src/analytics/`).
+4. **Interactive Streamlit Workspace**: Web interface for pre-game brief exploration and decision auditing (`src/analytics/mvp10_analyst_workspace.py`).
+5. **Editorial Visualizations & R ggplot2**: Publication-quality analytical visualization pipeline in R (`R/analysis/`) and brief compilation.
+
+---
+
+## 🎯 Why It Matters (From Raw Data to Coaching Question)
+
+International tournament basketball presents distinct analytical challenges: small sample sizes, brief preparation windows, and high game-to-game variance. This system demonstrates how to build a disciplined analytics framework that filters out statistical noise and provides coaching staffs with robust, actionable tactical signals.
+
+---
+
+## 🧭 Project Navigation
+
+### 👔 Executive View (Coaches, Scouts & Sporting Directors)
+- 📚 [Portfolio Hub & Case Studies (English)](portfolio/README.md) | [Hub de Portfolio (Español)](portfolio/README.md)
+- 📄 [Pre-Game Player Briefs (Scouting)](reports/mvp5_player_briefs/)
+- 📊 [Executive Presentation Deck in PDF](presentation/International_Basketball_Analytics_Presentation.pdf)
+- 📋 [Core Case Studies](portfolio/case_studies/)
+
+### 🔬 Technical View (Data Scientists & Engineers)
+- `src/`: Modular Python source code (ingestion, metrics, ML models, simulation).
+- `data/`: Processed datasets and DuckDB database files.
+- `R/`: Statistical analysis and visualization pipeline in R (`R/README.md`).
+- `tests/`: Complete 227-test automated Pytest suite.
+- `reports/`: Comprehensive catalog of technical MVP reports and audits.
+
+---
+
+## 📂 Repository Structure
 
 ```text
 basketball-analytics/
-├── README.md                           # Presentación del proyecto (Español)
+├── README.md                           # Project presentation (Spanish)
 ├── README_EN.md                        # Project presentation (English)
-├── run_project.py                      # Launcher de ejecución del pipeline completo
-├── config/                             # Configuraciones de torneos y reglas FIBA
-├── data/                               # Almacén DuckDB y datasets procesados
+├── run_project.py                      # Full pipeline execution script
+├── config/                             # Tournament manifests and FIBA rulesets
+├── data/                               # DuckDB database and processed datasets
 │
-├── portfolio/                          # Hub de presentación y casos de estudio
-│   ├── README.md                       # Índice de portfolio (Español)
+├── portfolio/                          # Presentation hub and case studies
+│   ├── README.md                       # Portfolio index (Spanish)
 │   ├── README_EN.md                    # Portfolio index (English)
-│   ├── index.md                        # Índice de casos de estudio
-│   ├── case_studies/                   # 4 Casos de estudio ejecutivos
-│   ├── job_search/                     # Perfiles de candidatura y competencias
-│   └── presentation/                   # Decks y resúmenes ejecutivos
+│   ├── index.md                        # Portfolio case studies index
+│   ├── case_studies/                   # 4 Executive case studies
+│   ├── job_search/                     # Candidate profiles and skills matrices
+│   └── presentation/                   # Slide decks and summaries
 │
-├── presentation/                       # Presentación ejecutiva oficial (PDF & PPTX)
-│   ├── README.md                       # Índice de presentación (Español)
+├── presentation/                       # Executive slide deck (PDF & PPTX)
+│   ├── README.md                       # Presentation index (Spanish)
 │   ├── README_EN.md                    # Presentation index (English)
 │   └── International_Basketball_Analytics_Presentation.pdf
 │
-├── R/                                  # Pipeline de visualización y analítica en R
-│   ├── README.md                       # Documentación del módulo R (Español)
+├── R/                                  # R analytical and visualization pipeline
+│   ├── README.md                       # R module documentation (Spanish)
 │   ├── README_EN.md                    # R module documentation (English)
-│   ├── analysis/                       # Scripts R de análisis longitudinal y Four Factors
-│   └── functions/                      # Funciones auxiliares R
+│   ├── analysis/                       # Longitudinal & Four Factors analysis scripts
+│   └── functions/                      # Auxiliary R functions
 │
-├── reports/                            # Informes técnicos, briefs prepartido y auditorías
-│   ├── README.md                       # Índice de informes y auditorías
+├── reports/                            # Technical reports, briefs, and audits
+│   ├── README.md                       # Reports index (Spanish)
 │   ├── README_EN.md                    # Reports index (English)
-│   ├── figures/                        # Visualizaciones generadas
-│   └── mvp5_player_briefs/             # Briefs prepartido de ejemplo
+│   ├── figures/                        # Visual charts and plots
+│   └── mvp5_player_briefs/             # Sample pre-game scouting briefs
 │
-├── src/                                # Código fuente en Python
-│   ├── acquisition/                    # Extracción y web scraping
-│   ├── analytics/                      # ML, simulación, briefs e inferencia
-│   ├── domain/                         # Modelos de datos y reglas
-│   ├── ingestion/                      # Pipelines ETL
+├── src/                                # Python source code
+│   ├── acquisition/                    # Scraping and rate limiting
+│   ├── analytics/                      # ML, simulation, briefs & inference
+│   ├── domain/                         # Data models and business rules
+│   ├── ingestion/                      # ETL pipelines
 │   ├── metrics/                        # Four Factors, Pace, Ratings
-│   ├── normalization/                  # Resolución de entidades
+│   ├── normalization/                  # Entity resolution
 │   ├── parsers/                        # Box-score parsers
-│   ├── storage/                        # Schema DuckDB y conexiones
-│   └── validation/                     # Control de calidad y ball math
+│   ├── storage/                        # DuckDB schema and storage
+│   └── validation/                     # Data quality and ball math
 │
-└── tests/                              # Suite de 227 tests automatizados en Pytest
+└── tests/                              # 227-test automated Pytest test suite
 ```
 
 ---
 
-## 👤 Autor y Contacto
+## 👤 Author & Contact
 
 **Miguel** — Data Analyst | Basketball Analytics  
 - **GitHub**: [@miguelo0203](https://github.com/miguelo0203)
 - **LinkedIn**: [linkedin.com/in/miguelo0203](https://www.linkedin.com)
 
 ---
-*Sistema analítico reproducible para baloncesto internacional. Desarrollado con Python, DuckDB, R y Streamlit.*
+*Reproducible international basketball analytics system built with Python, DuckDB, R, and Streamlit.*

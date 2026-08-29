@@ -1,4 +1,4 @@
-[🇬🇧 English](README_EN.md) | [🇪🇸 Español](README.md)
+[🇬🇧 English](README.md) | [🇪🇸 Español](README.md)
 
 # 📊 Official Executive Presentation: International Basketball Analytics (2005–2024)
 > **Executive Slide Deck & Strategic Presentation Dossier for Coaching Staffs and Front Offices**

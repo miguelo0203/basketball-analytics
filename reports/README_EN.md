@@ -1,4 +1,4 @@
-[🇬🇧 English](README_EN.md) | [🇪🇸 Español](README.md)
+[🇬🇧 English](README.md) | [🇪🇸 Español](README.md)
 
 # 📋 Technical Reports & Audits Catalog
 
