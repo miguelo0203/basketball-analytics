@@ -14,7 +14,7 @@
 | **¿Qué ha construido el candidato?** | SÍ | Bloque inicial "El proyecto en 30 segundos" y tabla resumen de hechos canónicos. | **GREEN** |
 | **¿Qué sabe hacer técnicamente?** | SÍ | Insignias activas, matriz de tecnologías (Python, R, DuckDB, ML, Quarto) y tabla de componentes. | **GREEN** |
 | **¿Qué nivel de rigor demuestra?** | SÍ | 227 tests automatizados en pytest con 100% de éxito y validación walk-forward out-of-sample en 17 folds. | **GREEN** |
-| **¿Dónde están los materiales de contratación?** | SÍ | Enlace directo y destacado al [Portfolio Hub](portfolio/README.md) con rutas específicas por perfil. | **GREEN** |
+| **¿Dónde están los materiales de contratación?** | SÍ | Enlace directo y destacado al [Portfolio Hub](../portfolio/README.md) con rutas específicas por perfil. | **GREEN** |
 
 ---
 
@@ -36,7 +36,7 @@
 | **¿Cómo se ingieren y validan los datos?** | SÍ | Diagrama de flujo de datos, almacén relacional DuckDB (12 tablas) y motor de QA determinista. | **GREEN** |
 | **¿Cómo se divide Python y R?** | SÍ | Sección de arquitectura dual: Python para ETL/ML/QA, R para EDA/Longitudinal/Quarto. | **GREEN** |
 | **¿Cómo se ejecuta el proyecto en local?** | SÍ | Instrucciones claras de "Inicio Rápido en 3 Pasos" (`python scripts/run_project.py`). | **GREEN** |
-| **¿Cómo se verifican los tests?** | SÍ | Comando `python -m pytest tests` documentado y enlazado a [docs/testing.md](docs/testing.md). | **GREEN** |
+| **¿Cómo se verifican los tests?** | SÍ | Comando `python -m pytest tests` documentado y enlazado a [docs/testing.md](../docs/testing.md). | **GREEN** |
 
 ---
 

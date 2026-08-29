@@ -89,12 +89,12 @@ The recruitment engine allows coaching and front-office staffs to define multi-c
   - `data/04_analytics/mart_player_tournament_features.parquet`
   - `data/04_analytics/mart_player_roles.parquet`
 - **Reports & Dossiers**:
-  - [reports/mvp3_professional_benchmark.md](file:///f:/España2005-2025/reports/mvp3_professional_benchmark.md)
-  - [reports/mvp3_research_question_selection.md](file:///f:/España2005-2025/reports/mvp3_research_question_selection.md)
-  - [reports/mvp3_role_analysis.md](file:///f:/España2005-2025/reports/mvp3_role_analysis.md)
-  - [reports/mvp3_comparables.md](file:///f:/España2005-2025/reports/mvp3_comparables.md)
-  - [reports/mvp3_recruitment_fit.md](file:///f:/España2005-2025/reports/mvp3_recruitment_fit.md)
-  - [reports/player_evaluation/ricky_rubio_evaluation_report.md](file:///f:/España2005-2025/reports/player_evaluation/ricky_rubio_evaluation_report.md)
+  - [reports/mvp3_professional_benchmark.md](../reports/mvp3_professional_benchmark.md)
+  - [reports/mvp3_research_question_selection.md](../reports/mvp3_research_question_selection.md)
+  - [reports/mvp3_role_analysis.md](../reports/mvp3_role_analysis.md)
+  - [reports/mvp3_comparables.md](../reports/mvp3_comparables.md)
+  - [reports/mvp3_recruitment_fit.md](../reports/mvp3_recruitment_fit.md)
+  - [reports/player_evaluation/ricky_rubio_evaluation_report.md](../reports/player_evaluation/ricky_rubio_evaluation_report.md)
 - **Publication Figures**:
   - `fig1_player_role_map_pca.png`
   - `fig2_role_radar_profiles.png`

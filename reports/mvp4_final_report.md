@@ -70,18 +70,18 @@ The system terminates with an explicit operational handoff that bridges quantita
 # 7. Summary of Artifacts Generated
 
 - **Reports**:
-  - [reports/mvp4_recruitment_cases.md](file:///f:/España2005-2025/reports/mvp4_recruitment_cases.md)
-  - [reports/mvp4_candidate_universe.md](file:///f:/España2005-2025/reports/mvp4_candidate_universe.md)
-  - [reports/mvp4_context_normalization.md](file:///f:/España2005-2025/reports/mvp4_context_normalization.md)
-  - [reports/mvp4_reliability_analysis.md](file:///f:/España2005-2025/reports/mvp4_reliability_analysis.md)
-  - [reports/mvp4_shortlist_stability.md](file:///f:/España2005-2025/reports/mvp4_shortlist_stability.md)
-  - [reports/mvp4_blind_validation.md](file:///f:/España2005-2025/reports/mvp4_blind_validation.md)
-  - [reports/mvp4_analyst_scout_handoff.md](file:///f:/España2005-2025/reports/mvp4_analyst_scout_handoff.md)
-  - [reports/mvp4_decision_support.md](file:///f:/España2005-2025/reports/mvp4_decision_support.md)
-  - [reports/mvp4_final_report.md](file:///f:/España2005-2025/reports/mvp4_final_report.md)
+  - [reports/mvp4_recruitment_cases.md](../reports/mvp4_recruitment_cases.md)
+  - [reports/mvp4_candidate_universe.md](../reports/mvp4_candidate_universe.md)
+  - [reports/mvp4_context_normalization.md](../reports/mvp4_context_normalization.md)
+  - [reports/mvp4_reliability_analysis.md](../reports/mvp4_reliability_analysis.md)
+  - [reports/mvp4_shortlist_stability.md](../reports/mvp4_shortlist_stability.md)
+  - [reports/mvp4_blind_validation.md](../reports/mvp4_blind_validation.md)
+  - [reports/mvp4_analyst_scout_handoff.md](../reports/mvp4_analyst_scout_handoff.md)
+  - [reports/mvp4_decision_support.md](../reports/mvp4_decision_support.md)
+  - [reports/mvp4_final_report.md](../reports/mvp4_final_report.md)
 - **Documentation**:
-  - [docs/mvp4_scouting_decision_workflow.md](file:///f:/España2005-2025/docs/mvp4_scouting_decision_workflow.md)
-  - [docs/mvp4_limitations.md](file:///f:/España2005-2025/docs/mvp4_limitations.md)
+  - [docs/mvp4_scouting_decision_workflow.md](../docs/mvp4_scouting_decision_workflow.md)
+  - [docs/mvp4_limitations.md](../docs/mvp4_limitations.md)
 - **Publication Figures**:
   - `fig1_candidate_universe_funnel.png`
   - `fig2_recruitment_fit_matrix.png`

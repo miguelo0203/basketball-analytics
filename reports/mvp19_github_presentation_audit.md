@@ -25,7 +25,7 @@
 
 ### 👤 Perfil 3: Entrenador de Baloncesto (Sin conocimientos de Python)
 - **Lo que busca en los primeros 30s**: ¿Esto me ayuda a preparar el partido del domingo o es una pérdida de tiempo llena de fórmulas?
-- **Experiencia en el repositorio**: El [Portfolio Hub](portfolio/README.md) y los briefs prepartido de 1.5 páginas le muestran preguntas tácticas directas (*"¿Cómo defender el bloqueo directo si el rival tiene un tirador por encima del 40% en pull-up?"*).
+- **Experiencia en el repositorio**: El [Portfolio Hub](../portfolio/README.md) y los briefs prepartido de 1.5 páginas le muestran preguntas tácticas directas (*"¿Cómo defender el bloqueo directo si el rival tiene un tirador por encima del 40% en pull-up?"*).
 - **Tiempo de comprensión**: $\approx 60$ segundos.
 - **Veredicto**: **MUY BUENO (GREEN)**.
 

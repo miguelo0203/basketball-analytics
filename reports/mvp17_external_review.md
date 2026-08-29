@@ -42,13 +42,13 @@ Para una demostración en directo o entrevista técnica, el candidato debe segui
 
 1. **Visión General del Proyecto**: [README.md](README.md)
    - Explicar el contexto: 20 años de torneos FIBA (2005–2024), 18 torneos y 1.145 partidos.
-2. **Infraestructura de Datos y Almacén Común**: [docs/arquitectura.md](docs/arquitectura.md)
+2. **Infraestructura de Datos y Almacén Común**: [docs/arquitectura.md](../docs/arquitectura.md)
    - Mostrar cómo DuckDB (`basketball_analytics.duckdb`) y Parquet sirven de sustrato inmutable para Python y R.
-3. **Capa Estadística y Visual en R**: [R/README.md](R/README.md)
+3. **Capa Estadística y Visual en R**: [R/README.md](../R/README.md)
    - Presentar el informe Quarto, las curvas longitudinales de jugadores y los intervalos bootstrap.
-4. **Modelado Supervisado Calibrado y Simulación**: [reports/figures/](reports/figures/)
+4. **Modelado Supervisado Calibrado y Simulación**: [reports/figures/](../reports/figures/)
    - Demostrar el Brier Score ($0.1967$) y el ECE ($0.0314$) en 17 folds walk-forward.
-5. **Brief Táctico y Soporte a Decisiones**: [src/analytics/mvp10_analyst_workspace.py](src/analytics/mvp10_analyst_workspace.py)
+5. **Brief Táctico y Soporte a Decisiones**: [src/analytics/mvp10_analyst_workspace.py](../src/analytics/mvp10_analyst_workspace.py)
    - Enseñar la formulación de preguntas para el cuerpo técnico y la barrera anti-hindsight.
 6. **Evidencia de Reproducibilidad en Vivo**: `python scripts/run_project.py`
    - Ejecutar la suite completa y mostrar los 227 tests pasando al 100%.
@@ -59,6 +59,6 @@ Para una demostración en directo o entrevista técnica, el candidato debe segui
 
 | Posible Obstáculo | Dificultad Inicial | Medida Aplicada |
 |---|---|---|
-| Demasiados documentos en el repositorio | Revisor saturado | Se estructuraron 4 rutas de navegación específicas en [portfolio/README.md](portfolio/README.md). |
+| Demasiados documentos en el repositorio | Revisor saturado | Se estructuraron 4 rutas de navegación específicas en [portfolio/README.md](../portfolio/README.md). |
 | Comprensión del uso de R sin Rscript en PATH | Dudas sobre ejecución | Se incluyó fallback automático y validación estática/dinámica en `tests/analytics/test_r_integration.py` y `scripts/run_r_analysis.R`. |
-| Complejidad de los 14 MVPs históricos | Sobrecarga temporal | Se diseñó el script de 5 minutos en [portfolio/presentation/5_minute_project_demo.md](portfolio/presentation/5_minute_project_demo.md). |
+| Complejidad de los 14 MVPs históricos | Sobrecarga temporal | Se diseñó el script de 5 minutos en [portfolio/presentation/5_minute_project_demo.md](../portfolio/presentation/5_minute_project_demo.md). |

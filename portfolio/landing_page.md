@@ -66,11 +66,11 @@ streamlit run src/analytics/mvp10_analyst_workspace.py -- streamlit
 python -m pytest tests -q
 ```
 
-- **[Master Case Studies](file:///f:/España2005-2025/portfolio/index.md)**
-- **[32-Question Interview Guide & Answers](file:///f:/España2005-2025/reports/mvp12/interview_answers.md)**
-- **[Methodology Guide for Non-Technical Readers](file:///f:/España2005-2025/reports/mvp12/methodology_summary.md)**
-- **[Claim Usage & Governance Guide](file:///f:/España2005-2025/reports/mvp12/claim_usage_guide.md)**
-- **[40-Slide Master Presentation Deck](file:///f:/España2005-2025/reports/presentation/mvp9_analyst_portfolio_presentation.md)**
+- **[Master Case Studies](../portfolio/index.md)**
+- **[32-Question Interview Guide & Answers](../reports/mvp12/interview_answers.md)**
+- **[Methodology Guide for Non-Technical Readers](../reports/mvp12/methodology_summary.md)**
+- **[Claim Usage & Governance Guide](../reports/mvp12/claim_usage_guide.md)**
+- **[40-Slide Master Presentation Deck](../reports/presentation/mvp9_analyst_portfolio_presentation.md)**
 
 ---
 

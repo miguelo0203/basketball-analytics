@@ -20,12 +20,12 @@
 | **9. Quarto Reporting** | **GREEN** | `quarto render` genera `exploratory_analysis.html` en 12.80s. | Mantener |
 | **10. Streamlit App** | **GREEN** | `src/analytics/mvp10_analyst_workspace.py` operativo con replay anti-hindsight.| Mantener |
 | **11. Test Suite** | **GREEN** | **227 tests en pytest pasando al 100% (0 fallos, 0 errores)**. | Mantener |
-| **12. Reproducibility** | **GREEN** | Manifiesto criptográfico SHA-256 en [docs/reproducibility_manifest.md](docs/reproducibility_manifest.md). | Mantener |
+| **12. Reproducibility** | **GREEN** | Manifiesto criptográfico SHA-256 en [docs/reproducibility_manifest.md](../docs/reproducibility_manifest.md). | Mantener |
 | **13. Documentation** | **GREEN** | 40 documentos técnicos exhaustivos en español e inglés. | Mantener |
 | **14. Portfolio Hub** | **GREEN** | Hub central en `portfolio/` con 4 rutas según perfil de audiencia. | Mantener |
 | **15. CV Master & 1-Page** | **GREEN** | Plantillas de CV realistas en `portfolio/job_search/` sin puestos falsos.| Mantener |
 | **16. LinkedIn Package** | **GREEN** | 5 headlines, 3 'About' y post de lanzamiento en `portfolio/job_search/`.| Mantener |
-| **17. Data Provenance** | **GREEN** | Fuentes públicas oficiales documentadas en [config/sources.yaml](config/sources.yaml). | Mantener |
+| **17. Data Provenance** | **GREEN** | Fuentes públicas oficiales documentadas en [config/sources.yaml](../config/sources.yaml). | Mantener |
 | **18. Git Hygiene** | **GREEN** | `.gitignore` configurado, **0 secretos/API keys encontrados en escaneo**. | Mantener |
 | **19. Interview Defensibility**| **GREEN** | 20 claims técnicos clave defendibles en entrevista con evidencia empírica.| Mantener |
 

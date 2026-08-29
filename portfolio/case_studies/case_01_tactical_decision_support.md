@@ -1,3 +1,5 @@
+[🇪🇸 Español](case_01_tactical_decision_support.md) | [🇬🇧 English](case_01_tactical_decision_support_EN.md)
+
 # CASO DE ESTUDIO 1: DEL DATO A LA PIZARRA — SOPORTE TÁCTICO Y PREPARACIÓN PREPARTIDO
 ## International Basketball Analytics (2005–2024)
 

@@ -5,7 +5,7 @@
 
 ## 1. Study Protocol & Sample Design
 
-To verify the reproducibility and objectivity of the possession-level qualitative video coding, a random sample of **90 actions (27.3% of the total dataset)** was independently double-coded by two evaluators (`analyst_1` and `analyst_2` / Senior Scout) using the standardized [mvp5_video_observation_rubric.yaml](file:///f:/España2005-2025/config/mvp5_video_observation_rubric.yaml).
+To verify the reproducibility and objectivity of the possession-level qualitative video coding, a random sample of **90 actions (27.3% of the total dataset)** was independently double-coded by two evaluators (`analyst_1` and `analyst_2` / Senior Scout) using the standardized [mvp5_video_observation_rubric.yaml](../config/mvp5_video_observation_rubric.yaml).
 
 Double-coding evaluated two distinct variables:
 1. **Categorical Action Execution**: `observed_behavior` $\in \{\text{YES}, \text{NO}, \text{MIXED}, \text{NOT\_OBSERVED}\}$.

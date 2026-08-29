@@ -27,4 +27,4 @@
 ## 3. Veredicto de Procedencia
 
 > **VEREDICTO**: **GREEN (CUMPLIMIENTO ÉTICO Y LEGAL COMPLETO)**.  
-> La procedencia de los datos está documentada en [config/sources.yaml](config/sources.yaml) y [docs/execution_lineage.md](docs/execution_lineage.md), sin infringir derechos propietarios ni utilizar datos corporativos restringidos.
+> La procedencia de los datos está documentada en [config/sources.yaml](../config/sources.yaml) y [docs/execution_lineage.md](../docs/execution_lineage.md), sin infringir derechos propietarios ni utilizar datos corporativos restringidos.

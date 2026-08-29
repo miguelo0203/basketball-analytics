@@ -9,11 +9,11 @@
 ---
 
 ### 1. Top Five Artifacts Reviewed
-1. **[Interactive Analyst Decision Workspace](file:///f:/España2005-2025/src/analytics/mvp10_analyst_workspace.py)**: Operational Streamlit application with strict anti-hindsight quarantine and contradiction engine.
-2. **[Flagship Coaching Brief](file:///f:/España2005-2025/reports/mvp14_flagship_coaching_report.md)**: 1.5-page pre-game tactical decision brief tailored for coaching staff.
-3. **[Head Coach Pushback Dialogue](file:///f:/España2005-2025/reports/mvp14_coach_pushback_simulation.md)**: Simulated conversation demonstrating communication tact, humility, and defense of methodology.
-4. **[DuckDB Relational Architecture & Feature Marts](file:///f:/España2005-2025/src/analytics/)**: 12 relational tables, SHA-256 provenance lake, and expanding walk-forward ML without data leakage.
-5. **[The First 30 Days Integration Plan](file:///f:/España2005-2025/reports/mvp13_day_one_analyst_workflow.md)**: Structured roadmap for integrating into a professional basketball club.
+1. **[Interactive Analyst Decision Workspace](../src/analytics/mvp10_analyst_workspace.py)**: Operational Streamlit application with strict anti-hindsight quarantine and contradiction engine.
+2. **[Flagship Coaching Brief](../reports/mvp14_flagship_coaching_report.md)**: 1.5-page pre-game tactical decision brief tailored for coaching staff.
+3. **[Head Coach Pushback Dialogue](../reports/mvp14_coach_pushback_simulation.md)**: Simulated conversation demonstrating communication tact, humility, and defense of methodology.
+4. **[DuckDB Relational Architecture & Feature Marts](../src/analytics/)**: 12 relational tables, SHA-256 provenance lake, and expanding walk-forward ML without data leakage.
+5. **[The First 30 Days Integration Plan](../reports/mvp13_day_one_analyst_workflow.md)**: Structured roadmap for integrating into a professional basketball club.
 
 ---
 

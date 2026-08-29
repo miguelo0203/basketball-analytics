@@ -47,9 +47,9 @@
 
 ## 3. Visualizations Generated
 
-- **Figure 1**: [fig1_longitudinal_3par_pace.png](file:///F:/España2005-2025/reports/figures/mvp2/fig1_longitudinal_3par_pace.png)  
+- **Figure 1**: [fig1_longitudinal_3par_pace.png](../reports/figures/mvp2/fig1_longitudinal_3par_pace.png)  
   *Longitudinal trend of 3PAr and Pace across the 18 tournament sequence with 2010 regulatory intervention marker.*
-- **Figure 2**: [fig2_era_distribution_density.png](file:///F:/España2005-2025/reports/figures/mvp2/fig2_era_distribution_density.png)  
+- **Figure 2**: [fig2_era_distribution_density.png](../reports/figures/mvp2/fig2_era_distribution_density.png)  
   *Probability density distributions comparing pre-2010 and post-2010 3PAr and eFG%.*
-- **Figure 3**: [fig3_four_factors_era_comparison.png](file:///F:/España2005-2025/reports/figures/mvp2/fig3_four_factors_era_comparison.png)  
+- **Figure 3**: [fig3_four_factors_era_comparison.png](../reports/figures/mvp2/fig3_four_factors_era_comparison.png)  
   *Boxplots of Dean Oliver Four Factors across EuroBasket, World Cup, and Olympic competitions.*

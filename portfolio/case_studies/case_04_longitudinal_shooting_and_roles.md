@@ -1,3 +1,5 @@
+[🇪🇸 Español](case_04_longitudinal_shooting_and_roles.md) | [🇬🇧 English](case_04_longitudinal_shooting_and_roles_EN.md)
+
 # CASO DE ESTUDIO 4: ESTABILIDAD LONGITUDINAL, INFERENCIA EN R Y MINERÍA DE ROLES
 ## International Basketball Analytics (2005–2024)
 

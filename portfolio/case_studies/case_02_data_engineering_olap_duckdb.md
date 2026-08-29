@@ -1,3 +1,5 @@
+[🇪🇸 Español](case_02_data_engineering_olap_duckdb.md) | [🇬🇧 English](case_02_data_engineering_olap_duckdb_EN.md)
+
 # CASO DE ESTUDIO 2: INGENIERÍA DE DATOS Y ALMACÉN OLAP CON DUCKDB Y PARQUET
 ## International Basketball Analytics (2005–2024)
 

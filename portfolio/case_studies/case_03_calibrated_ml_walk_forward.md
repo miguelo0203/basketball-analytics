@@ -1,3 +1,5 @@
+[🇪🇸 Español](case_03_calibrated_ml_walk_forward.md) | [🇬🇧 English](case_03_calibrated_ml_walk_forward_EN.md)
+
 # CASO DE ESTUDIO 3: MACHINE LEARNING CALIBRADO Y VALIDACIÓN WALK-FORWARD
 ## International Basketball Analytics (2005–2024)
 
